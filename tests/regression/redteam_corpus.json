@@ -1,0 +1,8004 @@
+{
+ "created": "2026-11-05 16:58:33",
+ "model_version": "rf-v1",
+ "threshold": 0.4186,
+ "dataset": {
+  "rows": 102810,
+  "max_ts": 1733887944,
+  "sum_amount": 6549378.24
+ },
+ "scenarios": {
+  "smash_and_grab": {
+   "baseline_rate": 1.0,
+   "status": "guarded",
+   "episodes": [
+    {
+     "victim": "U02050",
+     "txns": [
+      {
+       "user_id": "U02050",
+       "ts": 1733931066,
+       "amount": 310.31,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02050",
+       "ts": 1733931221,
+       "amount": 306.17,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02050",
+       "ts": 1733931383,
+       "amount": 258.94,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02050",
+       "ts": 1733931538,
+       "amount": 349.6,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01193",
+     "txns": [
+      {
+       "user_id": "U01193",
+       "ts": 1733936129,
+       "amount": 149.32,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01193",
+       "ts": 1733936311,
+       "amount": 243.35,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01193",
+       "ts": 1733936460,
+       "amount": 154.18,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01193",
+       "ts": 1733936607,
+       "amount": 275.17,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00506",
+     "txns": [
+      {
+       "user_id": "U00506",
+       "ts": 1733963744,
+       "amount": 317.48,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00506",
+       "ts": 1733963948,
+       "amount": 288.03,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00506",
+       "ts": 1733964158,
+       "amount": 477.31,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00506",
+       "ts": 1733964330,
+       "amount": 310.83,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00619",
+     "txns": [
+      {
+       "user_id": "U00619",
+       "ts": 1733954149,
+       "amount": 405.9,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00619",
+       "ts": 1733954349,
+       "amount": 696.25,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00619",
+       "ts": 1733954498,
+       "amount": 716.48,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00619",
+       "ts": 1733954712,
+       "amount": 472.52,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02482",
+     "txns": [
+      {
+       "user_id": "U02482",
+       "ts": 1733864618,
+       "amount": 1226.69,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02482",
+       "ts": 1733864784,
+       "amount": 921.01,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02482",
+       "ts": 1733864960,
+       "amount": 816.85,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02482",
+       "ts": 1733865169,
+       "amount": 1203.97,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02243",
+     "txns": [
+      {
+       "user_id": "U02243",
+       "ts": 1733653967,
+       "amount": 386.56,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02243",
+       "ts": 1733654175,
+       "amount": 410.21,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02243",
+       "ts": 1733654324,
+       "amount": 259.61,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02243",
+       "ts": 1733654482,
+       "amount": 366.53,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00926",
+     "txns": [
+      {
+       "user_id": "U00926",
+       "ts": 1733948175,
+       "amount": 134.27,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00926",
+       "ts": 1733948369,
+       "amount": 223.53,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00926",
+       "ts": 1733948540,
+       "amount": 225.17,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00926",
+       "ts": 1733948745,
+       "amount": 206.36,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00030",
+     "txns": [
+      {
+       "user_id": "U00030",
+       "ts": 1733971851,
+       "amount": 83.28,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00030",
+       "ts": 1733972044,
+       "amount": 131.8,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00030",
+       "ts": 1733972259,
+       "amount": 71.76,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00030",
+       "ts": 1733972423,
+       "amount": 144.29,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01834",
+     "txns": [
+      {
+       "user_id": "U01834",
+       "ts": 1733915565,
+       "amount": 1340.25,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01834",
+       "ts": 1733915727,
+       "amount": 1268.12,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01834",
+       "ts": 1733915927,
+       "amount": 917.25,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01834",
+       "ts": 1733916079,
+       "amount": 696.19,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00996",
+     "txns": [
+      {
+       "user_id": "U00996",
+       "ts": 1733870977,
+       "amount": 455.14,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00996",
+       "ts": 1733871144,
+       "amount": 359.0,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00996",
+       "ts": 1733871302,
+       "amount": 395.82,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00996",
+       "ts": 1733871476,
+       "amount": 325.05,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00477",
+     "txns": [
+      {
+       "user_id": "U00477",
+       "ts": 1733891155,
+       "amount": 438.61,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00477",
+       "ts": 1733891301,
+       "amount": 339.13,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00477",
+       "ts": 1733891447,
+       "amount": 318.0,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00477",
+       "ts": 1733891650,
+       "amount": 260.26,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00790",
+     "txns": [
+      {
+       "user_id": "U00790",
+       "ts": 1733796156,
+       "amount": 587.65,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00790",
+       "ts": 1733796325,
+       "amount": 786.62,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00790",
+       "ts": 1733796525,
+       "amount": 770.98,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00790",
+       "ts": 1733796692,
+       "amount": 1045.9,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01650",
+     "txns": [
+      {
+       "user_id": "U01650",
+       "ts": 1733865592,
+       "amount": 474.68,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01650",
+       "ts": 1733865778,
+       "amount": 433.41,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01650",
+       "ts": 1733865978,
+       "amount": 426.79,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01650",
+       "ts": 1733866144,
+       "amount": 281.01,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02195",
+     "txns": [
+      {
+       "user_id": "U02195",
+       "ts": 1733925311,
+       "amount": 612.46,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02195",
+       "ts": 1733925522,
+       "amount": 524.15,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02195",
+       "ts": 1733925713,
+       "amount": 587.54,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02195",
+       "ts": 1733925905,
+       "amount": 374.79,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00029",
+     "txns": [
+      {
+       "user_id": "U00029",
+       "ts": 1733349297,
+       "amount": 201.78,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00029",
+       "ts": 1733349507,
+       "amount": 455.47,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00029",
+       "ts": 1733349667,
+       "amount": 459.36,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00029",
+       "ts": 1733349847,
+       "amount": 257.7,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      }
+     ]
+    }
+   ]
+  },
+  "card_testing": {
+   "baseline_rate": 1.0,
+   "status": "guarded",
+   "episodes": [
+    {
+     "victim": "U00157",
+     "txns": [
+      {
+       "user_id": "U00157",
+       "ts": 1733877749,
+       "amount": 1.12,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00157",
+       "ts": 1733877870,
+       "amount": 1.61,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00157",
+       "ts": 1733877992,
+       "amount": 153.82,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00157",
+       "ts": 1733878093,
+       "amount": 125.34,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00157",
+       "ts": 1733878213,
+       "amount": 133.81,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00157",
+       "ts": 1733878310,
+       "amount": 126.23,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00917",
+     "txns": [
+      {
+       "user_id": "U00917",
+       "ts": 1733907537,
+       "amount": 1.79,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "CA",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00917",
+       "ts": 1733907644,
+       "amount": 1.31,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "CA",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00917",
+       "ts": 1733907768,
+       "amount": 120.0,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "CA",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00917",
+       "ts": 1733907879,
+       "amount": 83.78,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00917",
+       "ts": 1733907987,
+       "amount": 111.49,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "CA",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00917",
+       "ts": 1733908112,
+       "amount": 118.85,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "CA",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00439",
+     "txns": [
+      {
+       "user_id": "U00439",
+       "ts": 1733928696,
+       "amount": 1.13,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00439",
+       "ts": 1733928824,
+       "amount": 1.78,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00439",
+       "ts": 1733928927,
+       "amount": 236.77,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00439",
+       "ts": 1733929067,
+       "amount": 231.7,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00439",
+       "ts": 1733929179,
+       "amount": 278.27,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00439",
+       "ts": 1733929317,
+       "amount": 216.58,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01951",
+     "txns": [
+      {
+       "user_id": "U01951",
+       "ts": 1733541960,
+       "amount": 2.76,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01951",
+       "ts": 1733542073,
+       "amount": 1.16,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01951",
+       "ts": 1733542197,
+       "amount": 129.71,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01951",
+       "ts": 1733542310,
+       "amount": 97.1,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01951",
+       "ts": 1733542448,
+       "amount": 117.51,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01951",
+       "ts": 1733542583,
+       "amount": 94.59,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01302",
+     "txns": [
+      {
+       "user_id": "U01302",
+       "ts": 1733970049,
+       "amount": 1.3,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01302",
+       "ts": 1733970178,
+       "amount": 2.46,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01302",
+       "ts": 1733970281,
+       "amount": 90.04,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01302",
+       "ts": 1733970411,
+       "amount": 87.95,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01302",
+       "ts": 1733970509,
+       "amount": 110.02,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01302",
+       "ts": 1733970647,
+       "amount": 93.63,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02459",
+     "txns": [
+      {
+       "user_id": "U02459",
+       "ts": 1733861298,
+       "amount": 2.71,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02459",
+       "ts": 1733861407,
+       "amount": 1.17,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02459",
+       "ts": 1733861534,
+       "amount": 539.66,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02459",
+       "ts": 1733861640,
+       "amount": 392.42,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02459",
+       "ts": 1733861771,
+       "amount": 291.38,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02459",
+       "ts": 1733861895,
+       "amount": 277.11,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01672",
+     "txns": [
+      {
+       "user_id": "U01672",
+       "ts": 1733983515,
+       "amount": 1.42,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01672",
+       "ts": 1733983658,
+       "amount": 2.18,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01672",
+       "ts": 1733983760,
+       "amount": 76.29,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01672",
+       "ts": 1733983869,
+       "amount": 135.82,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01672",
+       "ts": 1733983984,
+       "amount": 113.56,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01672",
+       "ts": 1733984098,
+       "amount": 132.18,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01627",
+     "txns": [
+      {
+       "user_id": "U01627",
+       "ts": 1733873569,
+       "amount": 2.12,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01627",
+       "ts": 1733873666,
+       "amount": 1.54,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01627",
+       "ts": 1733873784,
+       "amount": 274.3,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01627",
+       "ts": 1733873889,
+       "amount": 229.21,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01627",
+       "ts": 1733874007,
+       "amount": 206.93,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01627",
+       "ts": 1733874149,
+       "amount": 384.63,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01786",
+     "txns": [
+      {
+       "user_id": "U01786",
+       "ts": 1733921589,
+       "amount": 1.46,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "CA",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01786",
+       "ts": 1733921694,
+       "amount": 2.96,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "CA",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01786",
+       "ts": 1733921804,
+       "amount": 103.85,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "CA",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01786",
+       "ts": 1733921913,
+       "amount": 70.45,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "CA",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01786",
+       "ts": 1733922034,
+       "amount": 94.96,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "CA",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01786",
+       "ts": 1733922165,
+       "amount": 70.69,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "CA",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00564",
+     "txns": [
+      {
+       "user_id": "U00564",
+       "ts": 1733821761,
+       "amount": 2.22,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00564",
+       "ts": 1733821891,
+       "amount": 1.95,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00564",
+       "ts": 1733822001,
+       "amount": 758.34,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00564",
+       "ts": 1733822100,
+       "amount": 637.6,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00564",
+       "ts": 1733822217,
+       "amount": 423.44,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00564",
+       "ts": 1733822348,
+       "amount": 586.52,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00627",
+     "txns": [
+      {
+       "user_id": "U00627",
+       "ts": 1733958457,
+       "amount": 2.95,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00627",
+       "ts": 1733958564,
+       "amount": 1.97,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00627",
+       "ts": 1733958696,
+       "amount": 166.35,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00627",
+       "ts": 1733958830,
+       "amount": 153.65,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00627",
+       "ts": 1733958929,
+       "amount": 278.39,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00627",
+       "ts": 1733959033,
+       "amount": 346.97,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01304",
+     "txns": [
+      {
+       "user_id": "U01304",
+       "ts": 1733988080,
+       "amount": 2.05,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01304",
+       "ts": 1733988179,
+       "amount": 2.05,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01304",
+       "ts": 1733988305,
+       "amount": 102.6,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01304",
+       "ts": 1733988410,
+       "amount": 87.86,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01304",
+       "ts": 1733988552,
+       "amount": 145.46,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01304",
+       "ts": 1733988689,
+       "amount": 121.03,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01650",
+     "txns": [
+      {
+       "user_id": "U01650",
+       "ts": 1733815192,
+       "amount": 2.66,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01650",
+       "ts": 1733815311,
+       "amount": 1.53,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01650",
+       "ts": 1733815410,
+       "amount": 152.58,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01650",
+       "ts": 1733815542,
+       "amount": 174.8,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01650",
+       "ts": 1733815670,
+       "amount": 188.58,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01650",
+       "ts": 1733815779,
+       "amount": 189.61,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01513",
+     "txns": [
+      {
+       "user_id": "U01513",
+       "ts": 1733955276,
+       "amount": 2.82,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01513",
+       "ts": 1733955395,
+       "amount": 2.31,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01513",
+       "ts": 1733955491,
+       "amount": 86.85,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01513",
+       "ts": 1733955621,
+       "amount": 111.38,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01513",
+       "ts": 1733955753,
+       "amount": 111.75,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01513",
+       "ts": 1733955878,
+       "amount": 120.72,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02286",
+     "txns": [
+      {
+       "user_id": "U02286",
+       "ts": 1733713503,
+       "amount": 1.89,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02286",
+       "ts": 1733713607,
+       "amount": 1.74,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02286",
+       "ts": 1733713712,
+       "amount": 313.94,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02286",
+       "ts": 1733713815,
+       "amount": 498.93,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02286",
+       "ts": 1733713939,
+       "amount": 633.0,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02286",
+       "ts": 1733714062,
+       "amount": 311.98,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      }
+     ]
+    }
+   ]
+  },
+  "velocity_dodger": {
+   "baseline_rate": 1.0,
+   "status": "guarded",
+   "episodes": [
+    {
+     "victim": "U02322",
+     "txns": [
+      {
+       "user_id": "U02322",
+       "ts": 1733995695,
+       "amount": 84.06,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02322",
+       "ts": 1733999332,
+       "amount": 90.73,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02322",
+       "ts": 1734003415,
+       "amount": 74.93,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02322",
+       "ts": 1734007110,
+       "amount": 50.91,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02322",
+       "ts": 1734010998,
+       "amount": 126.54,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01479",
+     "txns": [
+      {
+       "user_id": "U01479",
+       "ts": 1733958258,
+       "amount": 234.16,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01479",
+       "ts": 1733962470,
+       "amount": 264.74,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01479",
+       "ts": 1733966263,
+       "amount": 247.46,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01479",
+       "ts": 1733970098,
+       "amount": 237.52,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01479",
+       "ts": 1733973786,
+       "amount": 326.35,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01044",
+     "txns": [
+      {
+       "user_id": "U01044",
+       "ts": 1733855079,
+       "amount": 57.3,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01044",
+       "ts": 1733859588,
+       "amount": 79.86,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01044",
+       "ts": 1733862851,
+       "amount": 58.55,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01044",
+       "ts": 1733867513,
+       "amount": 100.23,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01044",
+       "ts": 1733871719,
+       "amount": 71.29,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02076",
+     "txns": [
+      {
+       "user_id": "U02076",
+       "ts": 1733748861,
+       "amount": 361.83,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02076",
+       "ts": 1733752941,
+       "amount": 187.42,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02076",
+       "ts": 1733756106,
+       "amount": 252.2,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02076",
+       "ts": 1733760228,
+       "amount": 224.5,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02076",
+       "ts": 1733764401,
+       "amount": 273.98,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01285",
+     "txns": [
+      {
+       "user_id": "U01285",
+       "ts": 1733952984,
+       "amount": 273.65,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01285",
+       "ts": 1733956357,
+       "amount": 390.55,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01285",
+       "ts": 1733960919,
+       "amount": 171.96,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01285",
+       "ts": 1733964731,
+       "amount": 283.27,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01285",
+       "ts": 1733969173,
+       "amount": 389.39,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01919",
+     "txns": [
+      {
+       "user_id": "U01919",
+       "ts": 1733923435,
+       "amount": 193.11,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01919",
+       "ts": 1733927429,
+       "amount": 173.05,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01919",
+       "ts": 1733931718,
+       "amount": 195.29,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01919",
+       "ts": 1733935466,
+       "amount": 213.74,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01919",
+       "ts": 1733939925,
+       "amount": 199.47,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "RU",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00526",
+     "txns": [
+      {
+       "user_id": "U00526",
+       "ts": 1733844053,
+       "amount": 107.84,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00526",
+       "ts": 1733847843,
+       "amount": 135.83,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00526",
+       "ts": 1733851411,
+       "amount": 118.67,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00526",
+       "ts": 1733855562,
+       "amount": 215.04,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00526",
+       "ts": 1733859601,
+       "amount": 112.48,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "BR",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01399",
+     "txns": [
+      {
+       "user_id": "U01399",
+       "ts": 1734012178,
+       "amount": 40.93,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01399",
+       "ts": 1734016357,
+       "amount": 45.15,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01399",
+       "ts": 1734019615,
+       "amount": 37.5,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01399",
+       "ts": 1734023699,
+       "amount": 38.72,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01399",
+       "ts": 1734027056,
+       "amount": 25.37,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00722",
+     "txns": [
+      {
+       "user_id": "U00722",
+       "ts": 1734001849,
+       "amount": 66.93,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00722",
+       "ts": 1734006500,
+       "amount": 99.66,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00722",
+       "ts": 1734010990,
+       "amount": 73.87,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00722",
+       "ts": 1734014632,
+       "amount": 123.73,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00722",
+       "ts": 1734019253,
+       "amount": 88.33,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01402",
+     "txns": [
+      {
+       "user_id": "U01402",
+       "ts": 1733856139,
+       "amount": 281.28,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01402",
+       "ts": 1733860360,
+       "amount": 282.6,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01402",
+       "ts": 1733864385,
+       "amount": 249.49,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01402",
+       "ts": 1733868091,
+       "amount": 228.06,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01402",
+       "ts": 1733871249,
+       "amount": 220.26,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00065",
+     "txns": [
+      {
+       "user_id": "U00065",
+       "ts": 1733956407,
+       "amount": 244.89,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00065",
+       "ts": 1733960492,
+       "amount": 278.34,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00065",
+       "ts": 1733963928,
+       "amount": 378.73,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00065",
+       "ts": 1733967317,
+       "amount": 502.82,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00065",
+       "ts": 1733971503,
+       "amount": 317.0,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01672",
+     "txns": [
+      {
+       "user_id": "U01672",
+       "ts": 1733990715,
+       "amount": 110.42,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01672",
+       "ts": 1733994115,
+       "amount": 80.12,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01672",
+       "ts": 1733998516,
+       "amount": 106.88,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01672",
+       "ts": 1734001733,
+       "amount": 142.97,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01672",
+       "ts": 1734005200,
+       "amount": 88.28,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00068",
+     "txns": [
+      {
+       "user_id": "U00068",
+       "ts": 1733685734,
+       "amount": 195.72,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00068",
+       "ts": 1733689222,
+       "amount": 139.62,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00068",
+       "ts": 1733693625,
+       "amount": 132.5,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00068",
+       "ts": 1733696755,
+       "amount": 123.12,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00068",
+       "ts": 1733700137,
+       "amount": 140.68,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00305",
+     "txns": [
+      {
+       "user_id": "U00305",
+       "ts": 1734009937,
+       "amount": 141.98,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00305",
+       "ts": 1734014611,
+       "amount": 135.59,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00305",
+       "ts": 1734018906,
+       "amount": 132.93,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00305",
+       "ts": 1734022551,
+       "amount": 173.9,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00305",
+       "ts": 1734026663,
+       "amount": 119.68,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "NG",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02254",
+     "txns": [
+      {
+       "user_id": "U02254",
+       "ts": 1733846501,
+       "amount": 130.14,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02254",
+       "ts": 1733850047,
+       "amount": 149.62,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02254",
+       "ts": 1733853396,
+       "amount": 228.25,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02254",
+       "ts": 1733857293,
+       "amount": 158.32,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02254",
+       "ts": 1733861563,
+       "amount": 228.37,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      }
+     ]
+    }
+   ]
+  },
+  "low_and_slow": {
+   "baseline_rate": 0.533,
+   "status": "known_gap",
+   "episodes": [
+    {
+     "victim": "U01699",
+     "txns": [
+      {
+       "user_id": "U01699",
+       "ts": 1733805143,
+       "amount": 20.3,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01699",
+       "ts": 1733813480,
+       "amount": 52.08,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01699",
+       "ts": 1733821025,
+       "amount": 29.01,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01699",
+       "ts": 1733829385,
+       "amount": 34.36,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01699",
+       "ts": 1733837398,
+       "amount": 44.42,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01699",
+       "ts": 1733844893,
+       "amount": 64.88,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02001",
+     "txns": [
+      {
+       "user_id": "U02001",
+       "ts": 1733992681,
+       "amount": 59.95,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02001",
+       "ts": 1734000196,
+       "amount": 52.24,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02001",
+       "ts": 1734007156,
+       "amount": 65.35,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02001",
+       "ts": 1734013486,
+       "amount": 57.07,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02001",
+       "ts": 1734021436,
+       "amount": 66.62,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02001",
+       "ts": 1734027208,
+       "amount": 46.94,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01931",
+     "txns": [
+      {
+       "user_id": "U01931",
+       "ts": 1733941431,
+       "amount": 55.3,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01931",
+       "ts": 1733947511,
+       "amount": 71.42,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01931",
+       "ts": 1733956134,
+       "amount": 50.5,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01931",
+       "ts": 1733963628,
+       "amount": 57.93,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01931",
+       "ts": 1733972051,
+       "amount": 62.41,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01931",
+       "ts": 1733980064,
+       "amount": 77.95,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "GB",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02243",
+     "txns": [
+      {
+       "user_id": "U02243",
+       "ts": 1733646767,
+       "amount": 40.79,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02243",
+       "ts": 1733654044,
+       "amount": 50.91,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02243",
+       "ts": 1733661633,
+       "amount": 58.98,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02243",
+       "ts": 1733668920,
+       "amount": 42.6,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02243",
+       "ts": 1733677063,
+       "amount": 47.65,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02243",
+       "ts": 1733684059,
+       "amount": 42.7,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00933",
+     "txns": [
+      {
+       "user_id": "U00933",
+       "ts": 1734025142,
+       "amount": 33.01,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00933",
+       "ts": 1734033306,
+       "amount": 59.36,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00933",
+       "ts": 1734041633,
+       "amount": 42.33,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00933",
+       "ts": 1734047720,
+       "amount": 34.92,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00933",
+       "ts": 1734055695,
+       "amount": 39.28,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00933",
+       "ts": 1734063985,
+       "amount": 38.67,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00517",
+     "txns": [
+      {
+       "user_id": "U00517",
+       "ts": 1733875843,
+       "amount": 28.6,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00517",
+       "ts": 1733882718,
+       "amount": 22.93,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00517",
+       "ts": 1733889593,
+       "amount": 24.57,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00517",
+       "ts": 1733895413,
+       "amount": 35.29,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00517",
+       "ts": 1733902935,
+       "amount": 17.85,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00517",
+       "ts": 1733909401,
+       "amount": 38.37,
+       "merchant_category": "travel",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00927",
+     "txns": [
+      {
+       "user_id": "U00927",
+       "ts": 1734036548,
+       "amount": 20.24,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00927",
+       "ts": 1734043241,
+       "amount": 29.55,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00927",
+       "ts": 1734049108,
+       "amount": 32.88,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00927",
+       "ts": 1734055852,
+       "amount": 56.12,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00927",
+       "ts": 1734064438,
+       "amount": 40.86,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00927",
+       "ts": 1734071023,
+       "amount": 48.44,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01103",
+     "txns": [
+      {
+       "user_id": "U01103",
+       "ts": 1734004399,
+       "amount": 114.33,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01103",
+       "ts": 1734012824,
+       "amount": 113.6,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01103",
+       "ts": 1734019136,
+       "amount": 108.83,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01103",
+       "ts": 1734026292,
+       "amount": 79.35,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01103",
+       "ts": 1734032828,
+       "amount": 203.93,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01103",
+       "ts": 1734041080,
+       "amount": 90.17,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02053",
+     "txns": [
+      {
+       "user_id": "U02053",
+       "ts": 1733815734,
+       "amount": 33.97,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02053",
+       "ts": 1733822244,
+       "amount": 34.4,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02053",
+       "ts": 1733830316,
+       "amount": 56.59,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02053",
+       "ts": 1733836106,
+       "amount": 46.29,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02053",
+       "ts": 1733842001,
+       "amount": 72.68,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02053",
+       "ts": 1733849672,
+       "amount": 39.65,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01788",
+     "txns": [
+      {
+       "user_id": "U01788",
+       "ts": 1734019154,
+       "amount": 82.18,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01788",
+       "ts": 1734025201,
+       "amount": 130.63,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01788",
+       "ts": 1734032514,
+       "amount": 98.26,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01788",
+       "ts": 1734040533,
+       "amount": 132.93,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01788",
+       "ts": 1734048962,
+       "amount": 117.82,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01788",
+       "ts": 1734054959,
+       "amount": 97.96,
+       "merchant_category": "entertainment",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01163",
+     "txns": [
+      {
+       "user_id": "U01163",
+       "ts": 1733648223,
+       "amount": 68.31,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01163",
+       "ts": 1733655510,
+       "amount": 50.91,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01163",
+       "ts": 1733662805,
+       "amount": 97.51,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01163",
+       "ts": 1733670540,
+       "amount": 46.55,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01163",
+       "ts": 1733677781,
+       "amount": 43.66,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01163",
+       "ts": 1733684253,
+       "amount": 77.9,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00586",
+     "txns": [
+      {
+       "user_id": "U00586",
+       "ts": 1733850646,
+       "amount": 39.62,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00586",
+       "ts": 1733857758,
+       "amount": 19.38,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00586",
+       "ts": 1733865070,
+       "amount": 40.97,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00586",
+       "ts": 1733872589,
+       "amount": 32.32,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00586",
+       "ts": 1733879975,
+       "amount": 22.39,
+       "merchant_category": "grocery",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00586",
+       "ts": 1733886691,
+       "amount": 28.4,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01502",
+     "txns": [
+      {
+       "user_id": "U01502",
+       "ts": 1733909452,
+       "amount": 46.96,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01502",
+       "ts": 1733916951,
+       "amount": 84.72,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01502",
+       "ts": 1733924548,
+       "amount": 71.37,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01502",
+       "ts": 1733931010,
+       "amount": 78.85,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01502",
+       "ts": 1733938061,
+       "amount": 56.84,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01502",
+       "ts": 1733944090,
+       "amount": 62.06,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01215",
+     "txns": [
+      {
+       "user_id": "U01215",
+       "ts": 1733921373,
+       "amount": 71.9,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01215",
+       "ts": 1733928513,
+       "amount": 80.82,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01215",
+       "ts": 1733936188,
+       "amount": 60.94,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01215",
+       "ts": 1733942830,
+       "amount": 76.07,
+       "merchant_category": "retail",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01215",
+       "ts": 1733950450,
+       "amount": 86.95,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01215",
+       "ts": 1733956589,
+       "amount": 44.02,
+       "merchant_category": "fuel",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02185",
+     "txns": [
+      {
+       "user_id": "U02185",
+       "ts": 1733913130,
+       "amount": 20.95,
+       "merchant_category": "restaurant",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02185",
+       "ts": 1733919901,
+       "amount": 26.2,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02185",
+       "ts": 1733926785,
+       "amount": 36.56,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02185",
+       "ts": 1733933044,
+       "amount": 25.24,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02185",
+       "ts": 1733940609,
+       "amount": 22.32,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02185",
+       "ts": 1733946998,
+       "amount": 27.25,
+       "merchant_category": "utilities",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    }
+   ]
+  },
+  "home_mimic": {
+   "baseline_rate": 1.0,
+   "status": "guarded",
+   "episodes": [
+    {
+     "victim": "U01545",
+     "txns": [
+      {
+       "user_id": "U01545",
+       "ts": 1733846394,
+       "amount": 168.13,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01545",
+       "ts": 1733846688,
+       "amount": 190.36,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01545",
+       "ts": 1733846928,
+       "amount": 260.15,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01545",
+       "ts": 1733847177,
+       "amount": 215.11,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02342",
+     "txns": [
+      {
+       "user_id": "U02342",
+       "ts": 1733396974,
+       "amount": 556.72,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02342",
+       "ts": 1733397279,
+       "amount": 504.25,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02342",
+       "ts": 1733397562,
+       "amount": 368.09,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02342",
+       "ts": 1733397804,
+       "amount": 1083.38,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "DE",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01721",
+     "txns": [
+      {
+       "user_id": "U01721",
+       "ts": 1733942603,
+       "amount": 190.95,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01721",
+       "ts": 1733942870,
+       "amount": 125.96,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01721",
+       "ts": 1733943147,
+       "amount": 86.24,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01721",
+       "ts": 1733943450,
+       "amount": 143.31,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02120",
+     "txns": [
+      {
+       "user_id": "U02120",
+       "ts": 1733892306,
+       "amount": 53.93,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02120",
+       "ts": 1733892664,
+       "amount": 41.99,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02120",
+       "ts": 1733892906,
+       "amount": 54.03,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02120",
+       "ts": 1733893148,
+       "amount": 70.57,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02288",
+     "txns": [
+      {
+       "user_id": "U02288",
+       "ts": 1733899008,
+       "amount": 157.34,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02288",
+       "ts": 1733899344,
+       "amount": 311.65,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02288",
+       "ts": 1733899702,
+       "amount": 284.36,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02288",
+       "ts": 1733900052,
+       "amount": 221.66,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00819",
+     "txns": [
+      {
+       "user_id": "U00819",
+       "ts": 1733794097,
+       "amount": 273.03,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00819",
+       "ts": 1733794438,
+       "amount": 280.39,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00819",
+       "ts": 1733794696,
+       "amount": 310.67,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00819",
+       "ts": 1733794938,
+       "amount": 374.27,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01652",
+     "txns": [
+      {
+       "user_id": "U01652",
+       "ts": 1733801303,
+       "amount": 399.06,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01652",
+       "ts": 1733801638,
+       "amount": 270.36,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01652",
+       "ts": 1733801947,
+       "amount": 283.25,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01652",
+       "ts": 1733802254,
+       "amount": 325.59,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00720",
+     "txns": [
+      {
+       "user_id": "U00720",
+       "ts": 1733903566,
+       "amount": 174.3,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00720",
+       "ts": 1733903875,
+       "amount": 176.08,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00720",
+       "ts": 1733904217,
+       "amount": 256.13,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00720",
+       "ts": 1733904457,
+       "amount": 142.0,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00569",
+     "txns": [
+      {
+       "user_id": "U00569",
+       "ts": 1733993343,
+       "amount": 166.13,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00569",
+       "ts": 1733993679,
+       "amount": 152.11,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00569",
+       "ts": 1733994016,
+       "amount": 188.06,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00569",
+       "ts": 1733994258,
+       "amount": 280.62,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02366",
+     "txns": [
+      {
+       "user_id": "U02366",
+       "ts": 1733948924,
+       "amount": 270.42,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02366",
+       "ts": 1733949190,
+       "amount": 374.69,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02366",
+       "ts": 1733949458,
+       "amount": 298.45,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02366",
+       "ts": 1733949778,
+       "amount": 224.5,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01968",
+     "txns": [
+      {
+       "user_id": "U01968",
+       "ts": 1733846733,
+       "amount": 173.01,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01968",
+       "ts": 1733847008,
+       "amount": 152.53,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01968",
+       "ts": 1733847267,
+       "amount": 108.37,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01968",
+       "ts": 1733847614,
+       "amount": 167.96,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02483",
+     "txns": [
+      {
+       "user_id": "U02483",
+       "ts": 1734009508,
+       "amount": 321.8,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02483",
+       "ts": 1734009841,
+       "amount": 241.89,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02483",
+       "ts": 1734010177,
+       "amount": 365.35,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02483",
+       "ts": 1734010438,
+       "amount": 316.16,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02143",
+     "txns": [
+      {
+       "user_id": "U02143",
+       "ts": 1733669503,
+       "amount": 218.67,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02143",
+       "ts": 1733669761,
+       "amount": 237.65,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02143",
+       "ts": 1733670070,
+       "amount": 166.62,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02143",
+       "ts": 1733670349,
+       "amount": 219.35,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01645",
+     "txns": [
+      {
+       "user_id": "U01645",
+       "ts": 1734030313,
+       "amount": 286.95,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01645",
+       "ts": 1734030619,
+       "amount": 240.67,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01645",
+       "ts": 1734030915,
+       "amount": 249.57,
+       "merchant_category": "crypto",
+       "channel": "web",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01645",
+       "ts": 1734031209,
+       "amount": 279.2,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01119",
+     "txns": [
+      {
+       "user_id": "U01119",
+       "ts": 1733902381,
+       "amount": 598.94,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01119",
+       "ts": 1733902677,
+       "amount": 631.52,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01119",
+       "ts": 1733902930,
+       "amount": 617.91,
+       "merchant_category": "gift_cards",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01119",
+       "ts": 1733903260,
+       "amount": 706.4,
+       "merchant_category": "electronics",
+       "channel": "web",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    }
+   ]
+  },
+  "device_takeover": {
+   "baseline_rate": 1.0,
+   "status": "guarded",
+   "episodes": [
+    {
+     "victim": "U02492",
+     "txns": [
+      {
+       "user_id": "U02492",
+       "ts": 1733688426,
+       "amount": 240.73,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02492",
+       "ts": 1733688687,
+       "amount": 541.74,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02492",
+       "ts": 1733688918,
+       "amount": 429.77,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02492",
+       "ts": 1733689119,
+       "amount": 249.28,
+       "merchant_category": "crypto",
+       "channel": "mobile",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00080",
+     "txns": [
+      {
+       "user_id": "U00080",
+       "ts": 1733769593,
+       "amount": 314.0,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00080",
+       "ts": 1733769840,
+       "amount": 525.78,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00080",
+       "ts": 1733770108,
+       "amount": 404.67,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00080",
+       "ts": 1733770362,
+       "amount": 274.96,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "BR",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02018",
+     "txns": [
+      {
+       "user_id": "U02018",
+       "ts": 1734010030,
+       "amount": 651.98,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02018",
+       "ts": 1734010315,
+       "amount": 630.16,
+       "merchant_category": "crypto",
+       "channel": "mobile",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02018",
+       "ts": 1734010582,
+       "amount": 651.41,
+       "merchant_category": "crypto",
+       "channel": "mobile",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02018",
+       "ts": 1734010848,
+       "amount": 750.55,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01152",
+     "txns": [
+      {
+       "user_id": "U01152",
+       "ts": 1733917354,
+       "amount": 76.53,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01152",
+       "ts": 1733917573,
+       "amount": 127.67,
+       "merchant_category": "crypto",
+       "channel": "mobile",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01152",
+       "ts": 1733917844,
+       "amount": 87.43,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01152",
+       "ts": 1733918106,
+       "amount": 107.46,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01302",
+     "txns": [
+      {
+       "user_id": "U01302",
+       "ts": 1734016849,
+       "amount": 246.65,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01302",
+       "ts": 1734017121,
+       "amount": 141.46,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01302",
+       "ts": 1734017366,
+       "amount": 108.97,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01302",
+       "ts": 1734017636,
+       "amount": 196.11,
+       "merchant_category": "crypto",
+       "channel": "mobile",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00343",
+     "txns": [
+      {
+       "user_id": "U00343",
+       "ts": 1733888552,
+       "amount": 171.02,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00343",
+       "ts": 1733888828,
+       "amount": 250.62,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00343",
+       "ts": 1733889035,
+       "amount": 457.26,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00343",
+       "ts": 1733889303,
+       "amount": 167.1,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "RU",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01711",
+     "txns": [
+      {
+       "user_id": "U01711",
+       "ts": 1733846296,
+       "amount": 384.51,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01711",
+       "ts": 1733846536,
+       "amount": 337.3,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01711",
+       "ts": 1733846731,
+       "amount": 409.1,
+       "merchant_category": "crypto",
+       "channel": "mobile",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01711",
+       "ts": 1733846940,
+       "amount": 631.61,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "GB",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01701",
+     "txns": [
+      {
+       "user_id": "U01701",
+       "ts": 1733939986,
+       "amount": 723.48,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01701",
+       "ts": 1733940260,
+       "amount": 638.5,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01701",
+       "ts": 1733940471,
+       "amount": 584.4,
+       "merchant_category": "crypto",
+       "channel": "mobile",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01701",
+       "ts": 1733940738,
+       "amount": 796.66,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "RU",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01028",
+     "txns": [
+      {
+       "user_id": "U01028",
+       "ts": 1733886291,
+       "amount": 120.97,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01028",
+       "ts": 1733886518,
+       "amount": 187.08,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01028",
+       "ts": 1733886800,
+       "amount": 170.49,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01028",
+       "ts": 1733887062,
+       "amount": 204.45,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "GB",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02285",
+     "txns": [
+      {
+       "user_id": "U02285",
+       "ts": 1733988566,
+       "amount": 306.82,
+       "merchant_category": "crypto",
+       "channel": "mobile",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02285",
+       "ts": 1733988781,
+       "amount": 346.83,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02285",
+       "ts": 1733989047,
+       "amount": 389.42,
+       "merchant_category": "crypto",
+       "channel": "mobile",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02285",
+       "ts": 1733989291,
+       "amount": 259.21,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "CA",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00379",
+     "txns": [
+      {
+       "user_id": "U00379",
+       "ts": 1733940053,
+       "amount": 322.96,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00379",
+       "ts": 1733940294,
+       "amount": 261.9,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00379",
+       "ts": 1733940574,
+       "amount": 289.12,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00379",
+       "ts": 1733940795,
+       "amount": 248.48,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "BR",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02050",
+     "txns": [
+      {
+       "user_id": "U02050",
+       "ts": 1733923866,
+       "amount": 163.51,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02050",
+       "ts": 1733924098,
+       "amount": 236.38,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02050",
+       "ts": 1733924291,
+       "amount": 153.41,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02050",
+       "ts": 1733924483,
+       "amount": 204.54,
+       "merchant_category": "crypto",
+       "channel": "mobile",
+       "country": "BR",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00436",
+     "txns": [
+      {
+       "user_id": "U00436",
+       "ts": 1733817304,
+       "amount": 542.9,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00436",
+       "ts": 1733817580,
+       "amount": 722.66,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00436",
+       "ts": 1733817825,
+       "amount": 656.49,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00436",
+       "ts": 1733818074,
+       "amount": 474.54,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "NG",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01056",
+     "txns": [
+      {
+       "user_id": "U01056",
+       "ts": 1733951636,
+       "amount": 472.13,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01056",
+       "ts": 1733951916,
+       "amount": 434.16,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01056",
+       "ts": 1733952128,
+       "amount": 520.7,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01056",
+       "ts": 1733952334,
+       "amount": 796.7,
+       "merchant_category": "electronics",
+       "channel": "mobile",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01026",
+     "txns": [
+      {
+       "user_id": "U01026",
+       "ts": 1733704229,
+       "amount": 564.66,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01026",
+       "ts": 1733704509,
+       "amount": 432.51,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01026",
+       "ts": 1733704724,
+       "amount": 597.25,
+       "merchant_category": "crypto",
+       "channel": "mobile",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01026",
+       "ts": 1733704987,
+       "amount": 458.87,
+       "merchant_category": "gift_cards",
+       "channel": "mobile",
+       "country": "GB",
+       "new_device": 0
+      }
+     ]
+    }
+   ]
+  },
+  "daytime_camouflage": {
+   "baseline_rate": 0.0,
+   "status": "known_gap",
+   "episodes": [
+    {
+     "victim": "U01439",
+     "txns": [
+      {
+       "user_id": "U01439",
+       "ts": 1733934758,
+       "amount": 190.23,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01439",
+       "ts": 1733936799,
+       "amount": 179.4,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01439",
+       "ts": 1733938793,
+       "amount": 199.81,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01808",
+     "txns": [
+      {
+       "user_id": "U01808",
+       "ts": 1733996219,
+       "amount": 89.8,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01808",
+       "ts": 1733998195,
+       "amount": 65.03,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01808",
+       "ts": 1733999930,
+       "amount": 54.24,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01085",
+     "txns": [
+      {
+       "user_id": "U01085",
+       "ts": 1734125795,
+       "amount": 131.77,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01085",
+       "ts": 1734127904,
+       "amount": 188.36,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01085",
+       "ts": 1734129809,
+       "amount": 150.2,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01848",
+     "txns": [
+      {
+       "user_id": "U01848",
+       "ts": 1734036277,
+       "amount": 136.39,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01848",
+       "ts": 1734038349,
+       "amount": 144.63,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01848",
+       "ts": 1734039881,
+       "amount": 120.8,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01983",
+     "txns": [
+      {
+       "user_id": "U01983",
+       "ts": 1733937143,
+       "amount": 55.96,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01983",
+       "ts": 1733938722,
+       "amount": 50.87,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01983",
+       "ts": 1733940753,
+       "amount": 47.05,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00203",
+     "txns": [
+      {
+       "user_id": "U00203",
+       "ts": 1733869551,
+       "amount": 548.5,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00203",
+       "ts": 1733871433,
+       "amount": 859.06,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00203",
+       "ts": 1733873513,
+       "amount": 1149.11,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00528",
+     "txns": [
+      {
+       "user_id": "U00528",
+       "ts": 1733918498,
+       "amount": 118.05,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00528",
+       "ts": 1733920346,
+       "amount": 102.9,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00528",
+       "ts": 1733921841,
+       "amount": 112.98,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00870",
+     "txns": [
+      {
+       "user_id": "U00870",
+       "ts": 1733964274,
+       "amount": 102.63,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00870",
+       "ts": 1733966290,
+       "amount": 175.25,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00870",
+       "ts": 1733968183,
+       "amount": 104.97,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01479",
+     "txns": [
+      {
+       "user_id": "U01479",
+       "ts": 1734110534,
+       "amount": 244.83,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01479",
+       "ts": 1734112201,
+       "amount": 300.6,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01479",
+       "ts": 1734113741,
+       "amount": 198.35,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00663",
+     "txns": [
+      {
+       "user_id": "U00663",
+       "ts": 1733862729,
+       "amount": 97.85,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00663",
+       "ts": 1733864858,
+       "amount": 67.13,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00663",
+       "ts": 1733866458,
+       "amount": 67.2,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00499",
+     "txns": [
+      {
+       "user_id": "U00499",
+       "ts": 1734016445,
+       "amount": 157.5,
+       "merchant_category": "restaurant",
+       "channel": "mobile",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00499",
+       "ts": 1734018512,
+       "amount": 160.86,
+       "merchant_category": "grocery",
+       "channel": "mobile",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00499",
+       "ts": 1734020543,
+       "amount": 185.47,
+       "merchant_category": "retail",
+       "channel": "mobile",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00020",
+     "txns": [
+      {
+       "user_id": "U00020",
+       "ts": 1734020271,
+       "amount": 48.92,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00020",
+       "ts": 1734021799,
+       "amount": 49.52,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00020",
+       "ts": 1734023456,
+       "amount": 66.49,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02078",
+     "txns": [
+      {
+       "user_id": "U02078",
+       "ts": 1734008864,
+       "amount": 129.24,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02078",
+       "ts": 1734010343,
+       "amount": 194.82,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02078",
+       "ts": 1734012329,
+       "amount": 210.18,
+       "merchant_category": "entertainment",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01483",
+     "txns": [
+      {
+       "user_id": "U01483",
+       "ts": 1733927833,
+       "amount": 118.76,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01483",
+       "ts": 1733929342,
+       "amount": 88.79,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01483",
+       "ts": 1733931261,
+       "amount": 93.71,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00244",
+     "txns": [
+      {
+       "user_id": "U00244",
+       "ts": 1733764231,
+       "amount": 72.56,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00244",
+       "ts": 1733765682,
+       "amount": 64.23,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00244",
+       "ts": 1733767282,
+       "amount": 61.63,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      }
+     ]
+    }
+   ]
+  },
+  "full_mimic": {
+   "baseline_rate": 0.0,
+   "status": "known_gap",
+   "episodes": [
+    {
+     "victim": "U00847",
+     "txns": [
+      {
+       "user_id": "U00847",
+       "ts": 1734103728,
+       "amount": 97.14,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00847",
+       "ts": 1734108249,
+       "amount": 130.26,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00847",
+       "ts": 1734113640,
+       "amount": 97.21,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00534",
+     "txns": [
+      {
+       "user_id": "U00534",
+       "ts": 1734100947,
+       "amount": 108.59,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00534",
+       "ts": 1734105272,
+       "amount": 104.59,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00534",
+       "ts": 1734111034,
+       "amount": 86.35,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00807",
+     "txns": [
+      {
+       "user_id": "U00807",
+       "ts": 1733829022,
+       "amount": 77.56,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00807",
+       "ts": 1733835168,
+       "amount": 77.09,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00807",
+       "ts": 1733841501,
+       "amount": 129.72,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00774",
+     "txns": [
+      {
+       "user_id": "U00774",
+       "ts": 1734127331,
+       "amount": 136.2,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00774",
+       "ts": 1734132934,
+       "amount": 171.89,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00774",
+       "ts": 1734138792,
+       "amount": 131.99,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01503",
+     "txns": [
+      {
+       "user_id": "U01503",
+       "ts": 1733960824,
+       "amount": 103.97,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01503",
+       "ts": 1733966842,
+       "amount": 69.12,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01503",
+       "ts": 1733972339,
+       "amount": 88.14,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02192",
+     "txns": [
+      {
+       "user_id": "U02192",
+       "ts": 1734127463,
+       "amount": 62.06,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02192",
+       "ts": 1734133020,
+       "amount": 50.58,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02192",
+       "ts": 1734139485,
+       "amount": 48.0,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00277",
+     "txns": [
+      {
+       "user_id": "U00277",
+       "ts": 1734215625,
+       "amount": 103.74,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00277",
+       "ts": 1734220991,
+       "amount": 102.49,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00277",
+       "ts": 1734226309,
+       "amount": 100.24,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02350",
+     "txns": [
+      {
+       "user_id": "U02350",
+       "ts": 1734021435,
+       "amount": 77.84,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02350",
+       "ts": 1734026530,
+       "amount": 78.13,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02350",
+       "ts": 1734032022,
+       "amount": 86.38,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00395",
+     "txns": [
+      {
+       "user_id": "U00395",
+       "ts": 1734106938,
+       "amount": 228.46,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00395",
+       "ts": 1734113130,
+       "amount": 150.23,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00395",
+       "ts": 1734118921,
+       "amount": 93.18,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02341",
+     "txns": [
+      {
+       "user_id": "U02341",
+       "ts": 1733924057,
+       "amount": 84.68,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02341",
+       "ts": 1733929912,
+       "amount": 79.89,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02341",
+       "ts": 1733934447,
+       "amount": 60.1,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02137",
+     "txns": [
+      {
+       "user_id": "U02137",
+       "ts": 1734009738,
+       "amount": 188.65,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02137",
+       "ts": 1734014111,
+       "amount": 177.24,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02137",
+       "ts": 1734020271,
+       "amount": 212.28,
+       "merchant_category": "electronics",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00295",
+     "txns": [
+      {
+       "user_id": "U00295",
+       "ts": 1733671032,
+       "amount": 101.58,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00295",
+       "ts": 1733675528,
+       "amount": 135.19,
+       "merchant_category": "utilities",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00295",
+       "ts": 1733680481,
+       "amount": 61.23,
+       "merchant_category": "utilities",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00866",
+     "txns": [
+      {
+       "user_id": "U00866",
+       "ts": 1734003397,
+       "amount": 79.03,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00866",
+       "ts": 1734008671,
+       "amount": 56.52,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00866",
+       "ts": 1734014608,
+       "amount": 100.22,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00369",
+     "txns": [
+      {
+       "user_id": "U00369",
+       "ts": 1733958502,
+       "amount": 44.65,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00369",
+       "ts": 1733964441,
+       "amount": 49.08,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00369",
+       "ts": 1733969360,
+       "amount": 64.68,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02185",
+     "txns": [
+      {
+       "user_id": "U02185",
+       "ts": 1733950066,
+       "amount": 41.48,
+       "merchant_category": "utilities",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02185",
+       "ts": 1733954884,
+       "amount": 30.3,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02185",
+       "ts": 1733959439,
+       "amount": 26.03,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    }
+   ]
+  },
+  "evolved_1": {
+   "baseline_rate": 0.4,
+   "status": "known_gap",
+   "episodes": [
+    {
+     "victim": "U00954",
+     "txns": [
+      {
+       "user_id": "U00954",
+       "ts": 1734100592,
+       "amount": 376.91,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00954",
+       "ts": 1734101748,
+       "amount": 700.32,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00954",
+       "ts": 1734103262,
+       "amount": 517.13,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00954",
+       "ts": 1734104512,
+       "amount": 616.54,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00954",
+       "ts": 1734105741,
+       "amount": 667.76,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00028",
+     "txns": [
+      {
+       "user_id": "U00028",
+       "ts": 1734099917,
+       "amount": 373.02,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00028",
+       "ts": 1734101411,
+       "amount": 222.5,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00028",
+       "ts": 1734102594,
+       "amount": 660.12,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00028",
+       "ts": 1734104212,
+       "amount": 396.07,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00028",
+       "ts": 1734105460,
+       "amount": 378.46,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01116",
+     "txns": [
+      {
+       "user_id": "U01116",
+       "ts": 1734004959,
+       "amount": 163.6,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01116",
+       "ts": 1734006264,
+       "amount": 135.64,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01116",
+       "ts": 1734007617,
+       "amount": 135.23,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01116",
+       "ts": 1734008728,
+       "amount": 131.78,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01116",
+       "ts": 1734010336,
+       "amount": 205.23,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01328",
+     "txns": [
+      {
+       "user_id": "U01328",
+       "ts": 1733934511,
+       "amount": 919.67,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01328",
+       "ts": 1733936105,
+       "amount": 749.95,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01328",
+       "ts": 1733937414,
+       "amount": 978.07,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01328",
+       "ts": 1733938882,
+       "amount": 1135.89,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01328",
+       "ts": 1733940357,
+       "amount": 799.05,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00227",
+     "txns": [
+      {
+       "user_id": "U00227",
+       "ts": 1733876392,
+       "amount": 375.55,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00227",
+       "ts": 1733877712,
+       "amount": 328.58,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00227",
+       "ts": 1733879062,
+       "amount": 529.0,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00227",
+       "ts": 1733880257,
+       "amount": 332.29,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00227",
+       "ts": 1733881818,
+       "amount": 527.74,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01710",
+     "txns": [
+      {
+       "user_id": "U01710",
+       "ts": 1734093817,
+       "amount": 546.91,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01710",
+       "ts": 1734095074,
+       "amount": 743.34,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01710",
+       "ts": 1734096348,
+       "amount": 586.93,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01710",
+       "ts": 1734097807,
+       "amount": 640.27,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01710",
+       "ts": 1734098907,
+       "amount": 564.25,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01254",
+     "txns": [
+      {
+       "user_id": "U01254",
+       "ts": 1734043178,
+       "amount": 341.11,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01254",
+       "ts": 1734044507,
+       "amount": 360.55,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01254",
+       "ts": 1734045874,
+       "amount": 453.52,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01254",
+       "ts": 1734047100,
+       "amount": 464.05,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01254",
+       "ts": 1734048299,
+       "amount": 433.61,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00981",
+     "txns": [
+      {
+       "user_id": "U00981",
+       "ts": 1733916139,
+       "amount": 676.05,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00981",
+       "ts": 1733917684,
+       "amount": 614.89,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00981",
+       "ts": 1733918857,
+       "amount": 590.27,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00981",
+       "ts": 1733920114,
+       "amount": 469.91,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00981",
+       "ts": 1733921309,
+       "amount": 559.2,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00139",
+     "txns": [
+      {
+       "user_id": "U00139",
+       "ts": 1734036196,
+       "amount": 796.34,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00139",
+       "ts": 1734037726,
+       "amount": 551.5,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00139",
+       "ts": 1734039030,
+       "amount": 851.53,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00139",
+       "ts": 1734040511,
+       "amount": 562.32,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00139",
+       "ts": 1734041685,
+       "amount": 696.06,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00343",
+     "txns": [
+      {
+       "user_id": "U00343",
+       "ts": 1734001667,
+       "amount": 477.45,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00343",
+       "ts": 1734002815,
+       "amount": 558.64,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00343",
+       "ts": 1734004314,
+       "amount": 367.77,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00343",
+       "ts": 1734005829,
+       "amount": 339.3,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00343",
+       "ts": 1734007211,
+       "amount": 436.99,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00758",
+     "txns": [
+      {
+       "user_id": "U00758",
+       "ts": 1733224562,
+       "amount": 539.26,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00758",
+       "ts": 1733225798,
+       "amount": 888.14,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00758",
+       "ts": 1733226969,
+       "amount": 595.41,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00758",
+       "ts": 1733228524,
+       "amount": 379.65,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00758",
+       "ts": 1733229872,
+       "amount": 544.86,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01921",
+     "txns": [
+      {
+       "user_id": "U01921",
+       "ts": 1733851210,
+       "amount": 405.32,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01921",
+       "ts": 1733852422,
+       "amount": 272.07,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01921",
+       "ts": 1733853705,
+       "amount": 359.49,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01921",
+       "ts": 1733854988,
+       "amount": 353.78,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01921",
+       "ts": 1733856615,
+       "amount": 336.52,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01180",
+     "txns": [
+      {
+       "user_id": "U01180",
+       "ts": 1733929962,
+       "amount": 436.17,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01180",
+       "ts": 1733931585,
+       "amount": 305.86,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01180",
+       "ts": 1733932882,
+       "amount": 481.38,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01180",
+       "ts": 1733934109,
+       "amount": 567.45,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01180",
+       "ts": 1733935323,
+       "amount": 398.47,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00634",
+     "txns": [
+      {
+       "user_id": "U00634",
+       "ts": 1733861617,
+       "amount": 365.93,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00634",
+       "ts": 1733862781,
+       "amount": 340.17,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00634",
+       "ts": 1733863948,
+       "amount": 291.51,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00634",
+       "ts": 1733865459,
+       "amount": 560.75,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00634",
+       "ts": 1733866985,
+       "amount": 267.62,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02022",
+     "txns": [
+      {
+       "user_id": "U02022",
+       "ts": 1734102357,
+       "amount": 2271.92,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02022",
+       "ts": 1734103545,
+       "amount": 999.62,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02022",
+       "ts": 1734104657,
+       "amount": 1359.11,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02022",
+       "ts": 1734106010,
+       "amount": 1487.95,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02022",
+       "ts": 1734107167,
+       "amount": 1819.04,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 1
+      }
+     ]
+    }
+   ]
+  },
+  "evolved_2": {
+   "baseline_rate": 0.2,
+   "status": "known_gap",
+   "episodes": [
+    {
+     "victim": "U01877",
+     "txns": [
+      {
+       "user_id": "U01877",
+       "ts": 1733917212,
+       "amount": 487.15,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01877",
+       "ts": 1733919835,
+       "amount": 401.91,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01877",
+       "ts": 1733922113,
+       "amount": 399.76,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01877",
+       "ts": 1733924416,
+       "amount": 451.56,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01827",
+     "txns": [
+      {
+       "user_id": "U01827",
+       "ts": 1733938180,
+       "amount": 618.05,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01827",
+       "ts": 1733940545,
+       "amount": 897.07,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01827",
+       "ts": 1733943678,
+       "amount": 1791.43,
+       "merchant_category": "utilities",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01827",
+       "ts": 1733946592,
+       "amount": 1012.7,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00476",
+     "txns": [
+      {
+       "user_id": "U00476",
+       "ts": 1733754757,
+       "amount": 213.39,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00476",
+       "ts": 1733757173,
+       "amount": 249.87,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00476",
+       "ts": 1733759865,
+       "amount": 494.16,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00476",
+       "ts": 1733762407,
+       "amount": 288.6,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01265",
+     "txns": [
+      {
+       "user_id": "U01265",
+       "ts": 1734047160,
+       "amount": 769.92,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01265",
+       "ts": 1734050201,
+       "amount": 550.52,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01265",
+       "ts": 1734053153,
+       "amount": 600.21,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01265",
+       "ts": 1734055561,
+       "amount": 822.86,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01527",
+     "txns": [
+      {
+       "user_id": "U01527",
+       "ts": 1733751268,
+       "amount": 1180.21,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01527",
+       "ts": 1733753662,
+       "amount": 1278.69,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01527",
+       "ts": 1733756592,
+       "amount": 876.42,
+       "merchant_category": "entertainment",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01527",
+       "ts": 1733759129,
+       "amount": 867.18,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00113",
+     "txns": [
+      {
+       "user_id": "U00113",
+       "ts": 1733790044,
+       "amount": 2021.23,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00113",
+       "ts": 1733792315,
+       "amount": 1126.14,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00113",
+       "ts": 1733795090,
+       "amount": 1273.19,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00113",
+       "ts": 1733797467,
+       "amount": 1634.57,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01087",
+     "txns": [
+      {
+       "user_id": "U01087",
+       "ts": 1734018297,
+       "amount": 279.03,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01087",
+       "ts": 1734021455,
+       "amount": 583.72,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01087",
+       "ts": 1734024434,
+       "amount": 605.6,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01087",
+       "ts": 1734027661,
+       "amount": 535.67,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00210",
+     "txns": [
+      {
+       "user_id": "U00210",
+       "ts": 1734016226,
+       "amount": 476.85,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00210",
+       "ts": 1734019191,
+       "amount": 563.39,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00210",
+       "ts": 1734021809,
+       "amount": 741.79,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00210",
+       "ts": 1734024343,
+       "amount": 539.09,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00898",
+     "txns": [
+      {
+       "user_id": "U00898",
+       "ts": 1733954892,
+       "amount": 196.95,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00898",
+       "ts": 1733957919,
+       "amount": 168.86,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00898",
+       "ts": 1733960786,
+       "amount": 170.39,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00898",
+       "ts": 1733963056,
+       "amount": 291.8,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00161",
+     "txns": [
+      {
+       "user_id": "U00161",
+       "ts": 1733876343,
+       "amount": 443.99,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00161",
+       "ts": 1733878800,
+       "amount": 315.56,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00161",
+       "ts": 1733882034,
+       "amount": 421.79,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00161",
+       "ts": 1733884788,
+       "amount": 171.06,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00361",
+     "txns": [
+      {
+       "user_id": "U00361",
+       "ts": 1733910230,
+       "amount": 140.83,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00361",
+       "ts": 1733912861,
+       "amount": 209.6,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00361",
+       "ts": 1733915855,
+       "amount": 238.51,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00361",
+       "ts": 1733919022,
+       "amount": 112.1,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01367",
+     "txns": [
+      {
+       "user_id": "U01367",
+       "ts": 1733953334,
+       "amount": 462.64,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01367",
+       "ts": 1733955788,
+       "amount": 538.14,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01367",
+       "ts": 1733958943,
+       "amount": 707.82,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01367",
+       "ts": 1733961557,
+       "amount": 510.46,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00755",
+     "txns": [
+      {
+       "user_id": "U00755",
+       "ts": 1733843401,
+       "amount": 1819.76,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00755",
+       "ts": 1733846083,
+       "amount": 961.3,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00755",
+       "ts": 1733848522,
+       "amount": 996.55,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00755",
+       "ts": 1733851747,
+       "amount": 1128.56,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00972",
+     "txns": [
+      {
+       "user_id": "U00972",
+       "ts": 1734043397,
+       "amount": 535.47,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00972",
+       "ts": 1734045853,
+       "amount": 543.8,
+       "merchant_category": "electronics",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00972",
+       "ts": 1734048487,
+       "amount": 648.07,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00972",
+       "ts": 1734051312,
+       "amount": 529.46,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00820",
+     "txns": [
+      {
+       "user_id": "U00820",
+       "ts": 1733738461,
+       "amount": 91.84,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00820",
+       "ts": 1733741681,
+       "amount": 115.0,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00820",
+       "ts": 1733744062,
+       "amount": 132.93,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00820",
+       "ts": 1733747333,
+       "amount": 100.89,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    }
+   ]
+  },
+  "evolved_3": {
+   "baseline_rate": 0.333,
+   "status": "known_gap",
+   "episodes": [
+    {
+     "victim": "U01691",
+     "txns": [
+      {
+       "user_id": "U01691",
+       "ts": 1733955606,
+       "amount": 241.52,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01691",
+       "ts": 1733958484,
+       "amount": 415.5,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01691",
+       "ts": 1733961632,
+       "amount": 201.84,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01691",
+       "ts": 1733964709,
+       "amount": 600.68,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01091",
+     "txns": [
+      {
+       "user_id": "U01091",
+       "ts": 1734117829,
+       "amount": 211.16,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01091",
+       "ts": 1734120090,
+       "amount": 381.61,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01091",
+       "ts": 1734122527,
+       "amount": 275.16,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01091",
+       "ts": 1734125470,
+       "amount": 240.12,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01745",
+     "txns": [
+      {
+       "user_id": "U01745",
+       "ts": 1733911770,
+       "amount": 929.62,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01745",
+       "ts": 1733914101,
+       "amount": 648.06,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01745",
+       "ts": 1733916701,
+       "amount": 554.49,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01745",
+       "ts": 1733919541,
+       "amount": 687.31,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U00292",
+     "txns": [
+      {
+       "user_id": "U00292",
+       "ts": 1733797862,
+       "amount": 1508.19,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00292",
+       "ts": 1733800574,
+       "amount": 1393.44,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00292",
+       "ts": 1733803652,
+       "amount": 1415.87,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00292",
+       "ts": 1733806212,
+       "amount": 2242.59,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02378",
+     "txns": [
+      {
+       "user_id": "U02378",
+       "ts": 1733876407,
+       "amount": 704.63,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02378",
+       "ts": 1733878658,
+       "amount": 436.35,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02378",
+       "ts": 1733881337,
+       "amount": 466.4,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02378",
+       "ts": 1733883766,
+       "amount": 505.1,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01780",
+     "txns": [
+      {
+       "user_id": "U01780",
+       "ts": 1734124411,
+       "amount": 412.2,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01780",
+       "ts": 1734126928,
+       "amount": 394.36,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01780",
+       "ts": 1734129269,
+       "amount": 361.93,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01780",
+       "ts": 1734131605,
+       "amount": 526.73,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02371",
+     "txns": [
+      {
+       "user_id": "U02371",
+       "ts": 1733872629,
+       "amount": 405.35,
+       "merchant_category": "entertainment",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02371",
+       "ts": 1733874949,
+       "amount": 374.88,
+       "merchant_category": "entertainment",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02371",
+       "ts": 1733878091,
+       "amount": 439.4,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02371",
+       "ts": 1733880396,
+       "amount": 460.37,
+       "merchant_category": "entertainment",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00584",
+     "txns": [
+      {
+       "user_id": "U00584",
+       "ts": 1733611100,
+       "amount": 273.07,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00584",
+       "ts": 1733613468,
+       "amount": 271.03,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00584",
+       "ts": 1733615729,
+       "amount": 326.06,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00584",
+       "ts": 1733618491,
+       "amount": 413.43,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02350",
+     "txns": [
+      {
+       "user_id": "U02350",
+       "ts": 1734020224,
+       "amount": 509.55,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02350",
+       "ts": 1734022430,
+       "amount": 559.03,
+       "merchant_category": "utilities",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02350",
+       "ts": 1734025363,
+       "amount": 757.73,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02350",
+       "ts": 1734028220,
+       "amount": 419.26,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00722",
+     "txns": [
+      {
+       "user_id": "U00722",
+       "ts": 1734008524,
+       "amount": 171.66,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00722",
+       "ts": 1734011513,
+       "amount": 203.56,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00722",
+       "ts": 1734014036,
+       "amount": 299.78,
+       "merchant_category": "fuel",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U00722",
+       "ts": 1734016256,
+       "amount": 190.49,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00240",
+     "txns": [
+      {
+       "user_id": "U00240",
+       "ts": 1733947456,
+       "amount": 174.11,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00240",
+       "ts": 1733949879,
+       "amount": 237.3,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00240",
+       "ts": 1733952499,
+       "amount": 234.2,
+       "merchant_category": "entertainment",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00240",
+       "ts": 1733954769,
+       "amount": 186.02,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02466",
+     "txns": [
+      {
+       "user_id": "U02466",
+       "ts": 1734014311,
+       "amount": 309.17,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02466",
+       "ts": 1734017057,
+       "amount": 525.94,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02466",
+       "ts": 1734019505,
+       "amount": 652.24,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02466",
+       "ts": 1734022011,
+       "amount": 408.42,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00140",
+     "txns": [
+      {
+       "user_id": "U00140",
+       "ts": 1733839397,
+       "amount": 554.21,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00140",
+       "ts": 1733841597,
+       "amount": 372.27,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00140",
+       "ts": 1733843942,
+       "amount": 536.64,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00140",
+       "ts": 1733846314,
+       "amount": 548.78,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00826",
+     "txns": [
+      {
+       "user_id": "U00826",
+       "ts": 1734121222,
+       "amount": 297.31,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00826",
+       "ts": 1734123809,
+       "amount": 362.91,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00826",
+       "ts": 1734126044,
+       "amount": 166.6,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00826",
+       "ts": 1734128947,
+       "amount": 273.43,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "GB",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01660",
+     "txns": [
+      {
+       "user_id": "U01660",
+       "ts": 1733793915,
+       "amount": 118.47,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01660",
+       "ts": 1733796749,
+       "amount": 89.56,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01660",
+       "ts": 1733799413,
+       "amount": 124.2,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01660",
+       "ts": 1733801667,
+       "amount": 99.02,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    }
+   ]
+  },
+  "evolved_4": {
+   "baseline_rate": 0.467,
+   "status": "known_gap",
+   "episodes": [
+    {
+     "victim": "U01961",
+     "txns": [
+      {
+       "user_id": "U01961",
+       "ts": 1734130838,
+       "amount": 375.73,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01961",
+       "ts": 1734132063,
+       "amount": 326.64,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01961",
+       "ts": 1734133139,
+       "amount": 326.28,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01961",
+       "ts": 1734134430,
+       "amount": 459.82,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02404",
+     "txns": [
+      {
+       "user_id": "U02404",
+       "ts": 1734208340,
+       "amount": 676.46,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02404",
+       "ts": 1734209402,
+       "amount": 519.84,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02404",
+       "ts": 1734210755,
+       "amount": 505.39,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02404",
+       "ts": 1734212124,
+       "amount": 442.74,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "US",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02217",
+     "txns": [
+      {
+       "user_id": "U02217",
+       "ts": 1734128849,
+       "amount": 492.68,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02217",
+       "ts": 1734130286,
+       "amount": 367.46,
+       "merchant_category": "electronics",
+       "channel": "pos",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02217",
+       "ts": 1734131701,
+       "amount": 296.77,
+       "merchant_category": "electronics",
+       "channel": "pos",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02217",
+       "ts": 1734133047,
+       "amount": 494.1,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "BR",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U02291",
+     "txns": [
+      {
+       "user_id": "U02291",
+       "ts": 1733270918,
+       "amount": 950.24,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 1
+      },
+      {
+       "user_id": "U02291",
+       "ts": 1733271931,
+       "amount": 968.56,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02291",
+       "ts": 1733273372,
+       "amount": 737.17,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02291",
+       "ts": 1733274400,
+       "amount": 1035.35,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00633",
+     "txns": [
+      {
+       "user_id": "U00633",
+       "ts": 1733958087,
+       "amount": 680.98,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00633",
+       "ts": 1733959105,
+       "amount": 1295.8,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00633",
+       "ts": 1733960089,
+       "amount": 583.21,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00633",
+       "ts": 1733961372,
+       "amount": 677.71,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00398",
+     "txns": [
+      {
+       "user_id": "U00398",
+       "ts": 1733955565,
+       "amount": 585.71,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00398",
+       "ts": 1733956799,
+       "amount": 502.76,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00398",
+       "ts": 1733957825,
+       "amount": 434.05,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00398",
+       "ts": 1733958836,
+       "amount": 331.67,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "RU",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01253",
+     "txns": [
+      {
+       "user_id": "U01253",
+       "ts": 1734034301,
+       "amount": 325.8,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01253",
+       "ts": 1734035710,
+       "amount": 226.97,
+       "merchant_category": "electronics",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01253",
+       "ts": 1734036869,
+       "amount": 310.48,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01253",
+       "ts": 1734038067,
+       "amount": 287.97,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "CA",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01446",
+     "txns": [
+      {
+       "user_id": "U01446",
+       "ts": 1734042571,
+       "amount": 217.59,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01446",
+       "ts": 1734043954,
+       "amount": 85.45,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01446",
+       "ts": 1734045056,
+       "amount": 142.53,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01446",
+       "ts": 1734046193,
+       "amount": 178.63,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02189",
+     "txns": [
+      {
+       "user_id": "U02189",
+       "ts": 1733935329,
+       "amount": 225.67,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02189",
+       "ts": 1733936702,
+       "amount": 236.56,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02189",
+       "ts": 1733938038,
+       "amount": 421.77,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02189",
+       "ts": 1733939161,
+       "amount": 298.5,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "IN",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01041",
+     "txns": [
+      {
+       "user_id": "U01041",
+       "ts": 1733683372,
+       "amount": 570.39,
+       "merchant_category": "electronics",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01041",
+       "ts": 1733684805,
+       "amount": 556.88,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01041",
+       "ts": 1733685948,
+       "amount": 600.81,
+       "merchant_category": "electronics",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01041",
+       "ts": 1733687262,
+       "amount": 420.02,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01981",
+     "txns": [
+      {
+       "user_id": "U01981",
+       "ts": 1733804923,
+       "amount": 208.14,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01981",
+       "ts": 1733806114,
+       "amount": 266.2,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01981",
+       "ts": 1733807554,
+       "amount": 253.22,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01981",
+       "ts": 1733808857,
+       "amount": 157.4,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "NG",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U00903",
+     "txns": [
+      {
+       "user_id": "U00903",
+       "ts": 1733956639,
+       "amount": 260.63,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00903",
+       "ts": 1733957886,
+       "amount": 248.11,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00903",
+       "ts": 1733958919,
+       "amount": 250.53,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U00903",
+       "ts": 1733960111,
+       "amount": 201.21,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "BR",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U02364",
+     "txns": [
+      {
+       "user_id": "U02364",
+       "ts": 1734125845,
+       "amount": 310.15,
+       "merchant_category": "utilities",
+       "channel": "pos",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02364",
+       "ts": 1734126992,
+       "amount": 630.91,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02364",
+       "ts": 1734128221,
+       "amount": 412.53,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "BR",
+       "new_device": 0
+      },
+      {
+       "user_id": "U02364",
+       "ts": 1734129354,
+       "amount": 338.21,
+       "merchant_category": "utilities",
+       "channel": "pos",
+       "country": "BR",
+       "new_device": 0
+      }
+     ]
+    },
+    {
+     "victim": "U01161",
+     "txns": [
+      {
+       "user_id": "U01161",
+       "ts": 1734108269,
+       "amount": 1122.37,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01161",
+       "ts": 1734109642,
+       "amount": 966.37,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01161",
+       "ts": 1734111050,
+       "amount": 660.45,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 1
+      },
+      {
+       "user_id": "U01161",
+       "ts": 1734112254,
+       "amount": 1208.24,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 1
+      }
+     ]
+    },
+    {
+     "victim": "U01514",
+     "txns": [
+      {
+       "user_id": "U01514",
+       "ts": 1733953600,
+       "amount": 811.81,
+       "merchant_category": "grocery",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01514",
+       "ts": 1733955046,
+       "amount": 611.18,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01514",
+       "ts": 1733956372,
+       "amount": 922.53,
+       "merchant_category": "restaurant",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 0
+      },
+      {
+       "user_id": "U01514",
+       "ts": 1733957833,
+       "amount": 516.39,
+       "merchant_category": "retail",
+       "channel": "pos",
+       "country": "DE",
+       "new_device": 1
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

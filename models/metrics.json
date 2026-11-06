@@ -1,0 +1,52 @@
+{
+  "model_version": "rf-v1",
+  "test_rows": 25703,
+  "baseline": {
+    "threshold": 0.5,
+    "precision": 0.7756,
+    "recall": 0.6173,
+    "f1": 0.6875,
+    "pr_auc": 0.73,
+    "roc_auc": 0.9383
+  },
+  "tuned": {
+    "threshold": 0.419,
+    "precision": 0.8814,
+    "recall": 0.7959,
+    "f1": 0.8365,
+    "pr_auc": 0.8884,
+    "roc_auc": 0.9814
+  },
+  "improvement_pct": {
+    "recall": 28.9,
+    "f1": 21.7,
+    "pr_auc": 21.7
+  },
+  "best_params": {
+    "n_estimators": 150,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "max_depth": null,
+    "class_weight": null
+  },
+  "feature_importance": {
+    "new_device": 0.2483,
+    "secs_since_last": 0.2162,
+    "amount_log": 0.1638,
+    "amount_ratio": 0.0923,
+    "category_code": 0.0691,
+    "hour": 0.0657,
+    "country_mismatch": 0.0568,
+    "txn_count_1h": 0.0538,
+    "channel_code": 0.0279,
+    "is_night": 0.006
+  },
+  "url_model": {
+    "threshold": 0.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "pr_auc": 1.0,
+    "roc_auc": 1.0
+  }
+}

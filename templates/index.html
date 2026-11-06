@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FraudGuard | Financial Threat Detection</title>
+<style>
+  :root {
+    --nav: #0b1f3a; --nav-hover: #14305a; --nav-text: #b9c6da;
+    --bg: #f3f5f8; --card: #ffffff; --text: #1a2433; --muted: #5d6b82; --border: #dde2ea;
+    --accent: #0f5ad6; --accent-dark: #0b48ad;
+    --low: #1b8a4f; --med: #c47f00; --high: #c9283d;
+    --low-bg: #e6f5ec; --med-bg: #fdf3dd; --high-bg: #fce8eb;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font: 14px/1.5 "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif;
+         background: var(--bg); color: var(--text); }
+
+  /* layout */
+  .sidebar { position: fixed; inset: 0 auto 0 0; width: 232px; background: var(--nav); color: var(--nav-text);
+             display: flex; flex-direction: column; z-index: 10; }
+  .brand { display: flex; align-items: center; gap: 10px; padding: 18px 20px; color: #fff;
+           border-bottom: 1px solid rgba(255,255,255,.08); }
+  .brand .logo { width: 30px; height: 30px; border-radius: 7px; background: var(--accent);
+                 display: grid; place-items: center; font-weight: 700; font-size: 15px; }
+  .brand b { font-size: 16px; letter-spacing: .02em; display: block; line-height: 1.1; }
+  .brand small { font-size: 11px; color: var(--nav-text); }
+  .nav { padding: 14px 10px; flex: 1; }
+  .nav .group { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: #7f90ab; padding: 10px 12px 6px; }
+  .nav a { display: block; padding: 9px 12px; border-radius: 6px; color: var(--nav-text); text-decoration: none; }
+  .nav a:hover { background: var(--nav-hover); color: #fff; }
+  .side-foot { padding: 14px 20px; font-size: 12px; border-top: 1px solid rgba(255,255,255,.08); color: #7f90ab; }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #7f90ab; margin-right: 6px; }
+  .dot.ok { background: #3ecf7d; }
+
+  .content { margin-left: 232px; min-height: 100vh; display: flex; flex-direction: column; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+            padding: 12px 28px; background: var(--card); border-bottom: 1px solid var(--border); }
+  .crumbs { color: var(--muted); font-size: 13px; }
+  .crumbs b { color: var(--text); font-weight: 600; }
+  .keybox { display: flex; align-items: center; gap: 8px; }
+  .keybox label { margin: 0; }
+  .keybox input { width: 190px; }
+  main { padding: 24px 28px 8px; max-width: 1280px; width: 100%; }
+  .page-head h1 { margin: 0; font-size: 22px; font-weight: 600; }
+  .page-head p { margin: 4px 0 20px; color: var(--muted); }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+  @media (max-width: 1000px) { .grid2 { grid-template-columns: 1fr; } }
+  @media (max-width: 860px) {
+    .sidebar { display: none; } .content { margin-left: 0; } main, .topbar { padding-left: 16px; padding-right: 16px; }
+  }
+
+  /* cards */
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; margin-bottom: 20px;
+          box-shadow: 0 1px 2px rgba(11,31,58,.04); }
+  .grid2 .card { margin-bottom: 0; }
+  .card-head { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex;
+               justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .card-head h2 { margin: 0; font-size: 15px; font-weight: 600; }
+  .card-head span { color: var(--muted); font-size: 12px; }
+  .card-body { padding: 18px 20px; }
+  h3 { font-size: 12px; margin: 22px 0 8px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+
+  /* KPI tiles */
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 20px; }
+  @media (max-width: 1000px) { .kpis { grid-template-columns: 1fr 1fr; } }
+  .kpi { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px 20px;
+         border-top: 3px solid var(--accent); box-shadow: 0 1px 2px rgba(11,31,58,.04); }
+  .kpi span { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
+  .kpi b { display: block; font-size: 28px; font-weight: 600; margin: 2px 0; }
+  .kpi small { color: var(--muted); }
+  .kpi small.up { color: var(--low); font-weight: 600; }
+
+  /* forms */
+  label { display: block; font-size: 12px; font-weight: 600; color: var(--muted); margin-bottom: 4px; }
+  input, select { width: 100%; padding: 8px 10px; border: 1px solid #c5ccd8; border-radius: 4px;
+                  background: #fff; color: var(--text); font: inherit; }
+  input:focus, select:focus { outline: 2px solid rgba(15,90,214,.25); border-color: var(--accent); }
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 16px; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  button { padding: 8px 16px; border-radius: 4px; border: 1px solid #c5ccd8; background: #fff;
+           color: var(--text); font: inherit; font-weight: 500; cursor: pointer; }
+  button:hover { background: #f0f3f8; }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  button.primary:hover { background: var(--accent-dark); }
+  button:disabled { opacity: .6; cursor: wait; }
+
+  /* results */
+  .result { margin-top: 16px; padding: 14px 16px; border-radius: 6px; border: 1px solid var(--border);
+            background: #fafbfd; display: none; }
+  .badge { display: inline-block; padding: 2px 9px; border-radius: 3px; font-weight: 600; font-size: 11px;
+           text-transform: uppercase; letter-spacing: .04em; color: #fff; }
+  .LOW { background: var(--low); } .MEDIUM { background: var(--med); } .HIGH { background: var(--high); }
+  .ACCEPT { background: var(--low); } .REJECT { background: var(--high); } .INCONCLUSIVE { background: var(--med); }
+  .bar, .meter { height: 8px; background: #e6eaf0; border-radius: 4px; overflow: hidden; }
+  .bar { margin: 10px 0; }
+  .bar > div, .meter > div { height: 100%; transition: width .3s; }
+  ul { margin: 6px 0 0 18px; padding: 0; }
+  li { margin-bottom: 3px; }
+  .muted { color: var(--muted); }
+  .err { color: var(--high); margin-top: 8px; }
+  code { background: #eef1f6; padding: 1px 6px; border-radius: 3px; font-size: 12px; }
+
+  /* tables */
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted);
+       background: #f7f9fc; padding: 9px 12px; border-bottom: 1px solid var(--border); }
+  td { padding: 10px 12px; border-bottom: 1px solid #edf0f5; vertical-align: top; }
+  tbody tr:hover { background: #f9fafc; }
+  .table-wrap { overflow-x: auto; margin: -18px -20px; }
+  .table-wrap.pad { margin: 0; }
+
+  footer { margin-top: auto; padding: 18px 28px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--border);
+           background: var(--card); }
+</style>
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="brand">
+    <div class="logo">F</div>
+    <div><b>FraudGuard</b><small>Threat Detection Platform</small></div>
+  </div>
+  <nav class="nav">
+    <div class="group">Monitoring</div>
+    <a href="#overview">Overview</a>
+    <a href="#alerts">Alert feed</a>
+    <div class="group">Detection</div>
+    <a href="#transactions">Transaction scoring</a>
+    <a href="#urls">URL scanner</a>
+    <div class="group">Assurance</div>
+    <a href="#redteam">Red-team report</a>
+  </nav>
+  <div class="side-foot"><span class="dot" id="healthDot"></span><span id="healthText">Checking service...</span></div>
+</aside>
+
+<div class="content">
+  <div class="topbar">
+    <div class="crumbs">Security Operations &nbsp;/&nbsp; <b>Fraud &amp; Phishing Detection</b></div>
+    <div class="keybox">
+      <label for="apiKey">API key</label>
+      <input id="apiKey" type="password" value="dev-key-change-me">
+    </div>
+  </div>
+
+  <main>
+    <div class="page-head">
+      <h1>Fraud &amp; Phishing Detection</h1>
+      <p>Real-time risk scoring for card transactions and URLs, with continuous adversarial testing.</p>
+    </div>
+
+    <section id="overview">
+      <div class="kpis" id="stats"><span class="muted">Loading...</span></div>
+    </section>
+
+    <div class="grid2">
+      <section class="card" id="transactions">
+        <div class="card-head"><h2>Transaction scoring</h2><span>POST /api/v1/transactions/score</span></div>
+        <div class="card-body">
+          <div class="form-grid">
+            <div><label>User ID</label><input id="user" value="U00042"></div>
+            <div><label>Amount (USD)</label><input id="amount" type="number" value="23.50" step="0.01"></div>
+            <div><label>Merchant category</label><select id="category"></select></div>
+            <div><label>Channel</label>
+              <select id="channel"><option>pos</option><option>web</option><option>mobile</option><option>atm</option></select></div>
+            <div><label>Country</label>
+              <select id="country"><option>US</option><option>GB</option><option>DE</option><option>IN</option>
+              <option>BR</option><option>NG</option><option>RU</option><option>CA</option></select></div>
+            <div><label>New device?</label><select id="newDevice"><option value="0">No</option><option value="1">Yes</option></select></div>
+          </div>
+          <div class="row">
+            <button class="primary" id="scoreBtn">Score transaction</button>
+            <button id="presetOk">Load normal example</button>
+            <button id="presetBad">Simulate suspicious burst</button>
+          </div>
+          <div class="result" id="txnResult"></div>
+        </div>
+      </section>
+
+      <section class="card" id="urls">
+        <div class="card-head"><h2>URL scanner</h2><span>POST /api/v1/urls/scan</span></div>
+        <div class="card-body">
+          <label>URL from an email, SMS or web session</label>
+          <input id="url" value="http://secure-chase-login.xyz/verify?id=8812">
+          <div class="row" style="margin-top:16px">
+            <button class="primary" id="urlBtn">Scan URL</button>
+            <button id="urlOk">Try a legitimate URL</button>
+          </div>
+          <div class="result" id="urlResult"></div>
+        </div>
+      </section>
+    </div>
+
+    <section class="card" id="alerts-card">
+      <div class="card-head" id="alerts"><h2>Alert feed</h2><span>High-risk events, refreshes every 5 seconds</span></div>
+      <div class="table-wrap pad">
+        <table>
+          <thead><tr><th>Time</th><th>Type</th><th>Subject</th><th>Score</th><th>Reason</th></tr></thead>
+          <tbody id="alertRows"><tr><td colspan="5" class="muted">No alerts yet.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card" id="redteam">
+      <div class="card-head"><h2>Red-team report</h2><span id="rtMeta"></span></div>
+      <div class="card-body">
+        <div class="muted" id="rtEmpty">No report yet. Run <code>python red_team.py</code>.</div>
+        <div id="rtBody" style="display:none">
+          <h3 style="margin-top:0">Detection by attack scenario</h3>
+          <div class="table-wrap pad">
+            <table><thead><tr><th>Attack scenario</th><th style="width:40%">Caught</th><th>$ lost</th></tr></thead>
+              <tbody id="rtScenarios"></tbody></table>
+          </div>
+          <h3>Blind spots</h3>
+          <ul id="rtSpots" style="margin-top:0"></ul>
+          <h3>Candidate fixes (A/B tested)</h3>
+          <div class="table-wrap pad">
+            <table><thead><tr><th>Candidate</th><th>Verdict</th><th>Detection change (95% CI)</th><th>Guardrails</th></tr></thead>
+              <tbody id="rtDefense"></tbody></table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>FraudGuard &middot; Simulated data for demonstration. Scores are model outputs, not final decisions.</footer>
+</div>
+
+<script>
+const CATEGORIES = ["grocery","restaurant","fuel","retail","travel","electronics","utilities","entertainment","gift_cards","crypto"];
+const $ = id => document.getElementById(id);
+$("category").innerHTML = CATEGORIES.map(c => `<option>${c}</option>`).join("");
+
+async function api(path, body) {
+  const options = { headers: { "X-API-Key": $("apiKey").value, "Content-Type": "application/json" } };
+  if (body !== undefined) { options.method = "POST"; options.body = JSON.stringify(body); }
+  const res = await fetch(path, options);
+  const data = await res.json();
+  if (!res.ok) throw new Error(Array.isArray(data.error) ? data.error.join(", ") : (data.error || res.statusText));
+  return data;
+}
+
+function esc(text) {
+  const d = document.createElement("div");
+  d.textContent = text;
+  return d.innerHTML;
+}
+
+function renderResult(el, data, extra) {
+  const colour = { LOW: "var(--low)", MEDIUM: "var(--med)", HIGH: "var(--high)" }[data.risk_level];
+  el.style.display = "block";
+  el.innerHTML =
+    `<span class="badge ${data.risk_level}">${data.risk_level} risk</span> ` +
+    `<b style="margin-left:6px;font-size:16px">${(data.risk_score * 100).toFixed(1)}%</b>` +
+    `<div class="bar"><div style="width:${data.risk_score * 100}%;background:${colour}"></div></div>` + extra;
+}
+
+async function guarded(button, el, work) {
+  button.disabled = true;
+  try { await work(); }
+  catch (e) { el.style.display = "block"; el.innerHTML = `<div class="err">${esc(e.message)}</div>`; }
+  finally { button.disabled = false; }
+}
+
+function currentTxn() {
+  return {
+    user_id: $("user").value.trim(), amount: parseFloat($("amount").value),
+    merchant_category: $("category").value, channel: $("channel").value,
+    country: $("country").value, new_device: parseInt($("newDevice").value)
+  };
+}
+
+$("scoreBtn").onclick = () => guarded($("scoreBtn"), $("txnResult"), async () => {
+  const r = await api("/api/v1/transactions/score", currentTxn());
+  const why = r.reasons.length ? "<ul>" + r.reasons.map(x => `<li>${esc(x)}</li>`).join("") + "</ul>"
+                               : '<div class="muted">No unusual signals found.</div>';
+  renderResult($("txnResult"), r, why + `<div class="muted" style="margin-top:8px">${r.latency_ms} ms &middot; ${esc(r.model_version)}</div>`);
+  loadAlerts();
+});
+
+$("presetOk").onclick = () => {
+  $("user").value = "U00042"; $("amount").value = "23.50"; $("category").value = "grocery";
+  $("channel").value = "pos"; $("country").value = "US"; $("newDevice").value = "0";
+};
+
+$("presetBad").onclick = () => guarded($("presetBad"), $("txnResult"), async () => {
+  const now = Math.floor(Date.now() / 1000), user = "U" + String(90000 + Math.floor(Math.random() * 9999));
+  const burst = [0, 1, 2, 3].map(i => ({ user_id: user, amount: 480 + i * 35, merchant_category: "gift_cards",
+    channel: "web", country: "NG", new_device: 1, ts: now + i * 90 }));
+  const r = await api("/api/v1/transactions/batch", burst);
+  renderResult($("txnResult"), r.results[r.results.length - 1],
+    `<div class="muted">Sent 4 gift-card purchases in 5 minutes (batch endpoint). ${r.flagged} of ${r.count} flagged. Last one shown.</div>` +
+    "<ul>" + r.results[r.count - 1].reasons.map(x => `<li>${esc(x)}</li>`).join("") + "</ul>");
+  loadAlerts();
+});
+
+$("urlBtn").onclick = () => guarded($("urlBtn"), $("urlResult"), async () => {
+  const r = await api("/api/v1/urls/scan", { url: $("url").value });
+  const rep = r.reputation;
+  renderResult($("urlResult"), r,
+    `<div class="muted">Model score ${(r.model_score * 100).toFixed(1)}% &middot; ` +
+    `${esc(rep.source)}: ${esc(rep.status)}${rep.detail ? " (" + esc(rep.detail) + ")" : ""}</div>`);
+  loadAlerts();
+});
+$("urlOk").onclick = () => { $("url").value = "https://www.paypal.com/help/contact"; };
+
+async function loadHealth() {
+  try {
+    const h = await (await fetch("/api/health")).json();
+    $("healthDot").className = "dot ok";
+    $("healthText").textContent = "Service online · " + h.model_version;
+  } catch (e) {
+    $("healthDot").className = "dot";
+    $("healthText").textContent = "Service unreachable";
+  }
+}
+
+async function loadAlerts() {
+  try {
+    const { alerts } = await api("/api/v1/alerts");
+    if (!alerts.length) return;
+    $("alertRows").innerHTML = alerts.slice(0, 12).map(a =>
+      `<tr><td>${esc(a.time)}</td><td>${esc(a.type)}</td><td>${esc(a.subject)}</td>` +
+      `<td><span class="badge HIGH">${(a.risk_score * 100).toFixed(0)}%</span></td>` +
+      `<td>${esc((a.reasons || []).slice(0, 2).join("; "))}</td></tr>`).join("");
+  } catch (e) { /* wrong API key: leave the table as is */ }
+}
+
+async function loadMetrics() {
+  try {
+    const m = await api("/api/v1/metrics");
+    const pct = v => (v * 100).toFixed(1) + "%";
+    const cell = (label, value, base) =>
+      `<div class="kpi"><span>${label}</span><b>${value}</b><small>${base}</small></div>`;
+    $("stats").innerHTML =
+      cell("Precision", pct(m.tuned.precision), "baseline " + pct(m.baseline.precision)) +
+      cell("Recall", pct(m.tuned.recall), "baseline " + pct(m.baseline.recall)) +
+      cell("F1 score", m.tuned.f1, "baseline " + m.baseline.f1) +
+      cell("PR-AUC", m.tuned.pr_auc, "baseline " + m.baseline.pr_auc);
+  } catch (e) { $("stats").innerHTML = '<span class="muted">Metrics unavailable: ' + esc(e.message) + "</span>"; }
+}
+
+async function loadRedTeam() {
+  try {
+    const r = await api("/api/v1/redteam/report");
+    $("rtEmpty").style.display = "none"; $("rtBody").style.display = "block";
+    $("rtMeta").textContent = "generated " + r.generated_at + " | model " + r.model_version;
+    $("rtScenarios").innerHTML = r.scenarios.map(s => {
+      const colour = s.detection_rate >= 0.8 ? "var(--low)" : s.detection_rate >= 0.5 ? "var(--med)" : "var(--high)";
+      return `<tr><td>${esc(s.scenario)}${s.blind_spot ? ' <span class="badge HIGH">blind spot</span>' : ""}</td>` +
+        `<td><div class="meter"><div style="width:${s.detection_rate * 100}%;background:${colour}"></div></div>` +
+        `<span class="muted">${(s.detection_rate * 100).toFixed(0)}%</span></td><td>${(s.loss_rate * 100).toFixed(0)}%</td></tr>`;
+    }).join("");
+    $("rtSpots").innerHTML = r.blind_spots.length ? r.blind_spots.slice(0, 4).map(b =>
+      `<li><code>${esc(b.rule)}</code> &mdash; ${b.missed_txns} missed, ${b.legit_traffic_pct}% of legit traffic looks the same. ` +
+      `<span class="muted">${esc(b.assessment)}</span></li>`).join("") : '<li class="muted">None found.</li>';
+    $("rtDefense").innerHTML = r.defense ? r.defense.candidates.map(c =>
+      `<tr><td><b>${esc(c.name)}</b><br><span class="muted">${esc(c.description)}</span></td>` +
+      `<td><span class="badge ${c.verdict}">${c.verdict}</span></td>` +
+      `<td>${(c.detection_delta * 100).toFixed(1)} pts [${(c.detection_delta_ci95[0] * 100).toFixed(1)}, ${(c.detection_delta_ci95[1] * 100).toFixed(1)}]</td>` +
+      `<td>${c.guardrail_breaches.length ? esc(c.guardrail_breaches.join("; ")) : '<span class="muted">guardrails held</span>'}</td></tr>`).join("")
+      : '<tr><td colspan="4" class="muted">Comparison skipped in the last run.</td></tr>';
+  } catch (e) { /* no report yet or wrong key */ }
+}
+
+loadHealth(); loadMetrics(); loadAlerts(); loadRedTeam(); setInterval(loadAlerts, 5000); setInterval(loadHealth, 15000);
+</script>
+</body>
+</html>

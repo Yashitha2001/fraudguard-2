@@ -1,0 +1,469 @@
+{
+ "generated_at": "2026-11-05 16:58:53",
+ "model_version": "rf-v1",
+ "threshold": 0.419,
+ "scenarios": [
+  {
+   "scenario": "full_mimic",
+   "episodes": 30,
+   "detection_rate": 0.0,
+   "loss_rate": 1.0,
+   "avg_stolen": 294.21,
+   "blind_spot": true
+  },
+  {
+   "scenario": "daytime_camouflage",
+   "episodes": 30,
+   "detection_rate": 0.167,
+   "loss_rate": 0.881,
+   "avg_stolen": 442.25,
+   "blind_spot": true
+  },
+  {
+   "scenario": "evolved_3",
+   "episodes": 30,
+   "detection_rate": 0.233,
+   "loss_rate": 0.864,
+   "avg_stolen": 1555.15,
+   "blind_spot": true
+  },
+  {
+   "scenario": "evolved_2",
+   "episodes": 30,
+   "detection_rate": 0.333,
+   "loss_rate": 0.82,
+   "avg_stolen": 1828.6,
+   "blind_spot": true
+  },
+  {
+   "scenario": "evolved_1",
+   "episodes": 30,
+   "detection_rate": 0.4,
+   "loss_rate": 0.717,
+   "avg_stolen": 1843.99,
+   "blind_spot": true
+  },
+  {
+   "scenario": "low_and_slow",
+   "episodes": 30,
+   "detection_rate": 0.467,
+   "loss_rate": 0.792,
+   "avg_stolen": 310.58,
+   "blind_spot": true
+  },
+  {
+   "scenario": "evolved_4",
+   "episodes": 30,
+   "detection_rate": 0.467,
+   "loss_rate": 0.68,
+   "avg_stolen": 1600.0,
+   "blind_spot": true
+  },
+  {
+   "scenario": "smash_and_grab",
+   "episodes": 30,
+   "detection_rate": 1.0,
+   "loss_rate": 0.0,
+   "avg_stolen": 0.0,
+   "blind_spot": false
+  },
+  {
+   "scenario": "card_testing",
+   "episodes": 30,
+   "detection_rate": 1.0,
+   "loss_rate": 0.002,
+   "avg_stolen": 1.68,
+   "blind_spot": false
+  },
+  {
+   "scenario": "velocity_dodger",
+   "episodes": 30,
+   "detection_rate": 1.0,
+   "loss_rate": 0.06,
+   "avg_stolen": 53.53,
+   "blind_spot": false
+  },
+  {
+   "scenario": "home_mimic",
+   "episodes": 30,
+   "detection_rate": 1.0,
+   "loss_rate": 0.068,
+   "avg_stolen": 84.38,
+   "blind_spot": false
+  },
+  {
+   "scenario": "device_takeover",
+   "episodes": 30,
+   "detection_rate": 1.0,
+   "loss_rate": 0.12,
+   "avg_stolen": 183.65,
+   "blind_spot": false
+  }
+ ],
+ "evolution": {
+  "history": [
+   {
+    "generation": 1,
+    "best_fitness": 887.9,
+    "best_stolen": 710.8,
+    "best_detection_rate": 0.0,
+    "mean_detection_rate": 0.658
+   },
+   {
+    "generation": 2,
+    "best_fitness": 820.0,
+    "best_stolen": 657.1,
+    "best_detection_rate": 0.0,
+    "mean_detection_rate": 0.112
+   },
+   {
+    "generation": 3,
+    "best_fitness": 1447.1,
+    "best_stolen": 1159.6,
+    "best_detection_rate": 0.5,
+    "mean_detection_rate": 0.054
+   },
+   {
+    "generation": 4,
+    "best_fitness": 2149.7,
+    "best_stolen": 1777.0,
+    "best_detection_rate": 0.4,
+    "mean_detection_rate": 0.167
+   }
+  ],
+  "hall_of_fame": [
+   {
+    "params": {
+     "n_txns": 5,
+     "amount_mult": 9.153716613980484,
+     "gap_seconds": 1363.608486870016,
+     "category_mode": "victim_usual",
+     "channel_mode": "pos",
+     "country_mode": "foreign",
+     "new_device_prob": 0.11553939383455328,
+     "start_hour": -1,
+     "micro_test": false
+    },
+    "fitness": 2149.6793045995955,
+    "detection_rate": 0.4,
+    "generation": 4
+   },
+   {
+    "params": {
+     "n_txns": 4,
+     "amount_mult": 9.153716613980484,
+     "gap_seconds": 2740.228532795243,
+     "category_mode": "victim_usual",
+     "channel_mode": "victim_usual",
+     "country_mode": "home",
+     "new_device_prob": 0.11553939383455328,
+     "start_hour": -1,
+     "micro_test": false
+    },
+    "fitness": 2092.9496354729904,
+    "detection_rate": 0.2,
+    "generation": 4
+   },
+   {
+    "params": {
+     "n_txns": 4,
+     "amount_mult": 7.085785289502106,
+     "gap_seconds": 2663.839149736706,
+     "category_mode": "victim_usual",
+     "channel_mode": "victim_usual",
+     "country_mode": "home",
+     "new_device_prob": 0.1,
+     "start_hour": -1,
+     "micro_test": false
+    },
+    "fitness": 1804.9506170721293,
+    "detection_rate": 0.2,
+    "generation": 4
+   },
+   {
+    "params": {
+     "n_txns": 4,
+     "amount_mult": 9.153716613980484,
+     "gap_seconds": 1218.9139248223992,
+     "category_mode": "victim_usual",
+     "channel_mode": "victim_usual",
+     "country_mode": "foreign",
+     "new_device_prob": 0.11553939383455328,
+     "start_hour": -1,
+     "micro_test": false
+    },
+    "fitness": 1513.4208330064826,
+    "detection_rate": 0.3,
+    "generation": 4
+   }
+  ]
+ },
+ "blind_spots": [
+  {
+   "rule": "new_device == 0 AND secs_since_last > 658.50 AND category_code <= 7.50",
+   "missed_txns": 764,
+   "missed_share": 0.997,
+   "legit_traffic_pct": 94.42,
+   "top_scenarios": {
+    "evolved_1": 136,
+    "evolved_3": 111,
+    "evolved_2": 108
+   },
+   "assessment": "ambiguous: looks the same as normal customers"
+  },
+  {
+   "rule": "new_device == 1 AND amount_ratio <= 1.58 AND secs_since_last > 5825.50",
+   "missed_txns": 54,
+   "missed_share": 0.761,
+   "legit_traffic_pct": 1.09,
+   "top_scenarios": {
+    "low_and_slow": 33,
+    "card_testing": 20,
+    "daytime_camouflage": 1
+   },
+   "assessment": "closable: very little normal traffic looks like this"
+  },
+  {
+   "rule": "new_device == 0 AND secs_since_last > 658.50 AND category_code > 7.50",
+   "missed_txns": 46,
+   "missed_share": 0.708,
+   "legit_traffic_pct": 2.82,
+   "top_scenarios": {
+    "low_and_slow": 24,
+    "velocity_dodger": 13,
+    "home_mimic": 4
+   },
+   "assessment": "costly: flagging it would add a noticeable number of false positives"
+  }
+ ],
+ "corpus": {
+  "smash_and_grab": {
+   "status": "guarded",
+   "baseline_rate": 1.0,
+   "episodes": 15
+  },
+  "card_testing": {
+   "status": "guarded",
+   "baseline_rate": 1.0,
+   "episodes": 15
+  },
+  "velocity_dodger": {
+   "status": "guarded",
+   "baseline_rate": 1.0,
+   "episodes": 15
+  },
+  "low_and_slow": {
+   "status": "known_gap",
+   "baseline_rate": 0.533,
+   "episodes": 15
+  },
+  "home_mimic": {
+   "status": "guarded",
+   "baseline_rate": 1.0,
+   "episodes": 15
+  },
+  "device_takeover": {
+   "status": "guarded",
+   "baseline_rate": 1.0,
+   "episodes": 15
+  },
+  "daytime_camouflage": {
+   "status": "known_gap",
+   "baseline_rate": 0.0,
+   "episodes": 15
+  },
+  "full_mimic": {
+   "status": "known_gap",
+   "baseline_rate": 0.0,
+   "episodes": 15
+  },
+  "evolved_1": {
+   "status": "known_gap",
+   "baseline_rate": 0.4,
+   "episodes": 15
+  },
+  "evolved_2": {
+   "status": "known_gap",
+   "baseline_rate": 0.2,
+   "episodes": 15
+  },
+  "evolved_3": {
+   "status": "known_gap",
+   "baseline_rate": 0.333,
+   "episodes": 15
+  },
+  "evolved_4": {
+   "status": "known_gap",
+   "baseline_rate": 0.467,
+   "episodes": 15
+  }
+ },
+ "defense": {
+  "fpr_budget": 0.00166,
+  "deployed": {
+   "clean_fpr": 0.00166,
+   "clean_recall": 0.796,
+   "detection_rate": 0.593,
+   "loss_rate": 0.499,
+   "by_family": {
+    "smash_and_grab": 1.0,
+    "card_testing": 1.0,
+    "velocity_dodger": 1.0,
+    "low_and_slow": 0.4,
+    "home_mimic": 1.0,
+    "device_takeover": 1.0,
+    "daytime_camouflage": 0.18,
+    "full_mimic": 0.0,
+    "evolved_1": 0.48,
+    "evolved_2": 0.34,
+    "evolved_3": 0.26,
+    "evolved_4": 0.46
+   }
+  },
+  "candidates": [
+   {
+    "name": "lower_threshold",
+    "description": "Same model, alert threshold x0.4 (quick fix)",
+    "verdict": "REJECT",
+    "guardrail_breaches": [
+     "false-positive rate 0.648% vs 0.166% budget"
+    ],
+    "clean_fpr": 0.00648,
+    "clean_recall": 0.875,
+    "detection_rate": 0.717,
+    "detection_delta": 0.1233,
+    "detection_delta_ci95": [
+     0.0983,
+     0.15
+    ],
+    "loss_rate": 0.389,
+    "loss_delta": -0.1099,
+    "loss_delta_ci95": [
+     -0.1284,
+     -0.0907
+    ],
+    "unseen_detection_delta": 0.12,
+    "by_family": {
+     "smash_and_grab": 1.0,
+     "card_testing": 1.0,
+     "velocity_dodger": 1.0,
+     "low_and_slow": 0.64,
+     "home_mimic": 1.0,
+     "device_takeover": 1.0,
+     "daytime_camouflage": 0.28,
+     "full_mimic": 0.0,
+     "evolved_1": 0.96,
+     "evolved_2": 0.38,
+     "evolved_3": 0.36,
+     "evolved_4": 0.98
+    }
+   },
+   {
+    "name": "adv_training",
+    "description": "Retrain with red-team episodes added as fraud examples",
+    "verdict": "ACCEPT",
+    "guardrail_breaches": [],
+    "clean_fpr": 0.00166,
+    "clean_recall": 0.781,
+    "detection_rate": 0.827,
+    "detection_delta": 0.2333,
+    "detection_delta_ci95": [
+     0.1983,
+     0.2683
+    ],
+    "loss_rate": 0.241,
+    "loss_delta": -0.2573,
+    "loss_delta_ci95": [
+     -0.2871,
+     -0.2263
+    ],
+    "unseen_detection_delta": -0.04,
+    "by_family": {
+     "smash_and_grab": 1.0,
+     "card_testing": 1.0,
+     "velocity_dodger": 1.0,
+     "low_and_slow": 0.32,
+     "home_mimic": 1.0,
+     "device_takeover": 1.0,
+     "daytime_camouflage": 0.6,
+     "full_mimic": 0.0,
+     "evolved_1": 1.0,
+     "evolved_2": 1.0,
+     "evolved_3": 1.0,
+     "evolved_4": 1.0
+    }
+   },
+   {
+    "name": "novelty_features",
+    "description": "Add features for how unusual the merchant / hour is for this customer",
+    "verdict": "ACCEPT",
+    "guardrail_breaches": [],
+    "clean_fpr": 0.00166,
+    "clean_recall": 0.786,
+    "detection_rate": 0.602,
+    "detection_delta": 0.0083,
+    "detection_delta_ci95": [
+     0.0017,
+     0.0167
+    ],
+    "loss_rate": 0.495,
+    "loss_delta": -0.004,
+    "loss_delta_ci95": [
+     -0.0097,
+     0.0007
+    ],
+    "unseen_detection_delta": 0.0,
+    "by_family": {
+     "smash_and_grab": 1.0,
+     "card_testing": 1.0,
+     "velocity_dodger": 1.0,
+     "low_and_slow": 0.4,
+     "home_mimic": 1.0,
+     "device_takeover": 1.0,
+     "daytime_camouflage": 0.2,
+     "full_mimic": 0.0,
+     "evolved_1": 0.48,
+     "evolved_2": 0.34,
+     "evolved_3": 0.28,
+     "evolved_4": 0.52
+    }
+   },
+   {
+    "name": "novelty_plus_adv",
+    "description": "Novelty features + adversarial training",
+    "verdict": "ACCEPT",
+    "guardrail_breaches": [],
+    "clean_fpr": 0.00166,
+    "clean_recall": 0.781,
+    "detection_rate": 0.835,
+    "detection_delta": 0.2417,
+    "detection_delta_ci95": [
+     0.2083,
+     0.275
+    ],
+    "loss_rate": 0.232,
+    "loss_delta": -0.2669,
+    "loss_delta_ci95": [
+     -0.2992,
+     -0.2343
+    ],
+    "unseen_detection_delta": -0.01,
+    "by_family": {
+     "smash_and_grab": 1.0,
+     "card_testing": 1.0,
+     "velocity_dodger": 1.0,
+     "low_and_slow": 0.38,
+     "home_mimic": 1.0,
+     "device_takeover": 1.0,
+     "daytime_camouflage": 0.64,
+     "full_mimic": 0.0,
+     "evolved_1": 1.0,
+     "evolved_2": 1.0,
+     "evolved_3": 1.0,
+     "evolved_4": 1.0
+    }
+   }
+  ]
+ },
+ "runtime_seconds": 22.2
+}
