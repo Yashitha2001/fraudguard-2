@@ -242,7 +242,7 @@ def create_app():
         return app.response_class(path.read_text(), mimetype="application/json")
 
     return app
-
+app = create_app()  # Exposes the module-level instance for Gunicorn
 
 if __name__ == "__main__":
     create_app().run(host="127.0.0.1", port=5001, debug=False)
