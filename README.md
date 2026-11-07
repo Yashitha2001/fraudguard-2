@@ -58,7 +58,6 @@ dev key `dev-key-change-me` is used.
 
 A transaction needs `user_id, amount, merchant_category, channel, country`. `ts` and `new_device` are optional.
 
-
 ## Project is live on Render
 - I want to check as how we make live in the corporate office this time tried with Render
 Website link: https://fraudguard-2-esbt.onrender.com
